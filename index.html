@@ -1,21 +1,24 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- font awesome 5 free -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+  <!-- Flickity -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!-- Fonts: Raleway & Open Sans -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
 
-  <!-- Your Custom CSS file that will include your blocks CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="./index.css">
 
   <title>Alteria Redesign</title>
@@ -107,16 +110,36 @@
           <a class="hero__btn btn btn-primary btn-lg" href="#!">Learn How</a>
         </div>
       </div>
-      <!-- <div class="col-lg-6 mt-5 mt-lg-0"> -->
+      <!-- <div class="col-lg-6 mt-5 mt-lg-0"> had to get rid of 'mt-5' class for top-margin on mobile -->
       <div class="col-lg-6 mt-lg-0">
         <div class="hero__img-container"><img class="hero__img w-100" src="images/Teammates5.png"></div>
       </div>
     </div>
   </div>
 </header>
+<!--Block 1 ends---------------->
+<!--Block 2---------------->
+<div class="block-24 space-between-blocks">
+  <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+    <h3 class="block__title"><span class="highlight">Work with us.</span><br/>We are proud of the work we produce.</h3>
+  </div>
+  <div class="clients-carousel">
+    <img class="clients-carousel cell" src="images/Proxxi-Technology.png"> 
+    <img class="clients-carousel cell" src="images/VirginPulse.png"> 
+    <img class="clients-carousel cell" src="images/Goodbits.png"> 
+    <img class="clients-carousel cell" src="images/Synaptitude.png"> 
+    <img class="clients-carousel cell" src="images/Proxxi-Technology.png"> 
+    <img class="clients-carousel cell" src="images/VirginPulse.png"> 
+    <img class="clients-carousel cell" src="images/Goodbits.png"> 
+    <img class="clients-carousel cell" src="images/Synaptitude.png"> 
+  </div>
+</div>
+<!--Block 2 ends---------------->
 
-<!--Block 1---------------->
-<script src="https://unpkg.com/tua-body-scroll-lock"></script>
+
+
+<!--Block 1 fix nav bar at top when scrolled ---------------->
+<!-- <script src="https://unpkg.com/tua-body-scroll-lock"></script>
 <script>
   var showDropdown = function(e) {
       e.currentTarget.classList.add("hero-nav__item--show-dropdown")
@@ -171,7 +194,7 @@
   languageDropdown.onclick = function(e) {
     e.target.classList.contains("dropdown__link") && (languageDropdown.querySelector(".dropdown__link--selected").classList.remove("dropdown__link--selected"), e.target.classList.add("dropdown__link--selected"), document.querySelector(".language-image").setAttribute("src", e.target.querySelector("img").getAttribute("src")))
   }
-</script>
+</script> -->
 
 </body>
 

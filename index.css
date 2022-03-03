@@ -20,6 +20,14 @@ body {
   color: var(--text-primary);
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
 .space-between-blocks {
   padding-top: var(--space-between-blocks-small-screens);
   padding-bottom: var(--space-between-blocks-small-screens);
@@ -939,3 +947,66 @@ button:focus {
   margin-right: -.5rem
 }
 /* Block 1 Ends */
+
+/* Block 2 */
+.block-24 {
+  --block-background: rgba(196, 196, 196, 0.26);
+  --block-text-color: var(--text-primary);
+  background: var(--block-background);
+  color: var(--block-text-color);
+  margin-bottom: 4rem;
+}
+
+.block__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.flickity-viewport {
+  width: 100%;
+}
+
+.clients-carousel {
+  margin: 0 10% 0 10%; 
+}
+
+.clients-carousel.cell {
+  height: 55px;
+  object-fit: contain;
+  margin: 0 4.75rem 3rem 4.75rem;
+}
+
+.flickity-page-dots .dot {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  background: #C4C4C4;
+  border: none;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: #77ADFF;
+}
+
+@media(max-width:500px) { /* FIX THIS */
+  /* .clients-carousel.cell  {
+    flex: 0 0 auto;
+    max-width: 40%;
+    padding: 15px;
+    margin: 0;
+    width: auto;
+    height: auto
+  } */
+}
+
+@media(min-width:992px) {
+  .clients-carousel.cell {
+    max-width: 200px;
+  }
+}
+
+.clients-carousel.cell:focus,
+.clients-carousel.cellg:hover {
+  opacity: 1
+}
+/* Block 2 ends*/
