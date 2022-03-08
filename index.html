@@ -16,7 +16,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="./index.css">
@@ -25,120 +25,191 @@
 </head>
 
 <body>
-<!--Block 1---------------->
-<header class="hero container-fluid">
-  <div class="hero__content container mx-auto">
-    <!-- I'm putting the nav inside this "fixed-nav-container" to fix some issues happens on scroll -->
-    <div class="fixed-nav-container">
-      <nav class="hero-nav position-relative container mx-auto px-0">
-        <ul class="nav w-100 list-unstyled align-items-center p-0">
-          <li class="hero-nav__item"><a href="/"><img class="hero-nav__logo" src="images/screenshot_logo.png" change-src-onscroll="https://app.frontendor.com/assets/ui-library/Blocks/blocks__assets/images/logo.svg" alt="our logo"></a><!-- Don't remove this empty span --><span class="mx-2"></span></li>
-          
-          <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
-            <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
-              <li class="flex-grow-1">
-                <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
-                  <li class="flex-grow-1">
-                    <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
-                      <li class="hero-nav__item"><a href="https://twitter.com/intent/tweet?text=30%2B%20HTML%20BLOCKS%20TO%20BUILD%20OUTSTANDING%20LANDING%20PAGES&amp;url=https%3A%2F%2Ffrontendor.com%2F" target="_blank" class="btn btn-primary">Contact Us</a></li>
-                    </ul>
-                  </li>
-                  <li class="hero-nav__item"><a href="#!" class="hero-nav__link">About</a></li>
-                  <li class="hero-nav__item hero-nav__item--with-dropdown"><span class="hero-nav__link" tabindex="1" role="button"><span class="flex-grow-1 mr-2">Projects</span><svg class="hero-nav__item-chevron bi bi-chevron-down" width=".8em" height=".8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                      </svg></span>
-                    <div class="hero-nav__dropdown dropdown dropdown--of-1-columns">
-                      <div class="row flex-wrap">
-                        <div class="col-lg-12"><span class="dropdown__title mt-0">MARKETING PRODUCTS</span><a href="https://google.com" target="_blank" class="dropdown__link">
-                            <div><span class="dropdown__icon"><i class="fas fa-globe"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
-                            <div class="dropdown__item"><span class="dropdown__item-title">getLandingCopy</span>
-                              <p class="dropdown__item-description">It's time to write a sales copy for your landing page for FREE.</p>
-                            </div>
-                          </a><a href="#" class="dropdown__link">
-                            <div><span class="dropdown__icon"><i class="fas fa-pen"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
-                            <div class="dropdown__item"><span class="dropdown__item-title">Frontendor</span>
-                              <p class="dropdown__item-description">Build a beautiful landing page by copy-paste.</p>
-                            </div>
-                          </a><span class="dropdown__title mt-0">DESIGN PRODUCTS</span><a href="#" class="dropdown__link">
-                            <div><span class="dropdown__icon"><i class="fas fa-bed"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
-                            <div class="dropdown__item"><span class="dropdown__item-title">Clsname</span>
-                              <p class="dropdown__item-description">The easiest way to work with HTML from your browser.</p>
-                            </div>
-                          </a></div>
+  <!--Block 1---------------->
+  <header class="hero container-fluid">
+    <div class="hero__content container mx-auto">
+      <!-- I'm putting the nav inside this "fixed-nav-container" to fix some issues happens on scroll -->
+      <div class="fixed-nav-container">
+        <nav class="hero-nav position-relative container mx-auto px-0">
+          <ul class="nav w-100 list-unstyled align-items-center p-0">
+            <li class="hero-nav__item"><a href="/"><img class="hero-nav__logo" src="images/screenshot_logo.png" change-src-onscroll="https://app.frontendor.com/assets/ui-library/Blocks/blocks__assets/images/logo.svg" alt="our logo"></a><!-- Don't remove this empty span --><span class="mx-2"></span></li>
+            
+            <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+              <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+                <li class="flex-grow-1">
+                  <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
+                    <li class="flex-grow-1">
+                      <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
+                        <li class="hero-nav__item"><a href="https://twitter.com/intent/tweet?text=30%2B%20HTML%20BLOCKS%20TO%20BUILD%20OUTSTANDING%20LANDING%20PAGES&amp;url=https%3A%2F%2Ffrontendor.com%2F" target="_blank" class="btn btn-primary">Contact Us</a></li>
+                      </ul>
+                    </li>
+                    <li class="hero-nav__item"><a href="#!" class="hero-nav__link">About</a></li>
+                    <li class="hero-nav__item hero-nav__item--with-dropdown"><span class="hero-nav__link" tabindex="1" role="button"><span class="flex-grow-1 mr-2">Projects</span><svg class="hero-nav__item-chevron bi bi-chevron-down" width=".8em" height=".8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                        </svg></span>
+                      <div class="hero-nav__dropdown dropdown dropdown--of-1-columns">
+                        <div class="row flex-wrap">
+                          <div class="col-lg-12"><span class="dropdown__title mt-0">MARKETING PRODUCTS</span><a href="https://google.com" target="_blank" class="dropdown__link">
+                              <div><span class="dropdown__icon"><i class="fas fa-globe"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
+                              <div class="dropdown__item"><span class="dropdown__item-title">getLandingCopy</span>
+                                <p class="dropdown__item-description">It's time to write a sales copy for your landing page for FREE.</p>
+                              </div>
+                            </a><a href="#" class="dropdown__link">
+                              <div><span class="dropdown__icon"><i class="fas fa-pen"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
+                              <div class="dropdown__item"><span class="dropdown__item-title">Frontendor</span>
+                                <p class="dropdown__item-description">Build a beautiful landing page by copy-paste.</p>
+                              </div>
+                            </a><span class="dropdown__title mt-0">DESIGN PRODUCTS</span><a href="#" class="dropdown__link">
+                              <div><span class="dropdown__icon"><i class="fas fa-bed"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
+                              <div class="dropdown__item"><span class="dropdown__item-title">Clsname</span>
+                                <p class="dropdown__item-description">The easiest way to work with HTML from your browser.</p>
+                              </div>
+                            </a></div>
+                        </div>
                       </div>
-                    </div>
-                  </li>
-                  <li class="hero-nav__item hero-nav__item--with-dropdown"><span class="hero-nav__link" tabindex="1" role="button"><span class="flex-grow-1 mr-2">Services</span><svg class="hero-nav__item-chevron bi bi-chevron-down" width=".8em" height=".8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                  </svg></span>
-                    <div class="hero-nav__dropdown dropdown dropdown--of-1-columns">
-                      <div class="row flex-wrap">
-                        <div class="col-lg-12"><span class="dropdown__title mt-0">MARKETING PRODUCTS</span><a href="https://google.com" target="_blank" class="dropdown__link">
-                            <div><span class="dropdown__icon"><i class="fas fa-globe"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
-                            <div class="dropdown__item"><span class="dropdown__item-title">getLandingCopy</span>
-                              <p class="dropdown__item-description">It's time to write a sales copy for your landing page for FREE.</p>
-                            </div>
-                          </a><a href="#" class="dropdown__link">
-                            <div><span class="dropdown__icon"><i class="fas fa-pen"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
-                            <div class="dropdown__item"><span class="dropdown__item-title">Frontendor</span>
-                              <p class="dropdown__item-description">Build a beautiful landing page by copy-paste.</p>
-                            </div>
-                          </a><span class="dropdown__title mt-0">DESIGN PRODUCTS</span><a href="#" class="dropdown__link">
-                            <div><span class="dropdown__icon"><i class="fas fa-bed"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
-                            <div class="dropdown__item"><span class="dropdown__item-title">Clsname</span>
-                              <p class="dropdown__item-description">The easiest way to work with HTML from your browser.</p>
-                            </div>
-                          </a></div>
+                    </li>
+                    <li class="hero-nav__item hero-nav__item--with-dropdown"><span class="hero-nav__link" tabindex="1" role="button"><span class="flex-grow-1 mr-2">Services</span><svg class="hero-nav__item-chevron bi bi-chevron-down" width=".8em" height=".8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                    </svg></span>
+                      <div class="hero-nav__dropdown dropdown dropdown--of-1-columns">
+                        <div class="row flex-wrap">
+                          <div class="col-lg-12"><span class="dropdown__title mt-0">MARKETING PRODUCTS</span><a href="https://google.com" target="_blank" class="dropdown__link">
+                              <div><span class="dropdown__icon"><i class="fas fa-globe"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
+                              <div class="dropdown__item"><span class="dropdown__item-title">getLandingCopy</span>
+                                <p class="dropdown__item-description">It's time to write a sales copy for your landing page for FREE.</p>
+                              </div>
+                            </a><a href="#" class="dropdown__link">
+                              <div><span class="dropdown__icon"><i class="fas fa-pen"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
+                              <div class="dropdown__item"><span class="dropdown__item-title">Frontendor</span>
+                                <p class="dropdown__item-description">Build a beautiful landing page by copy-paste.</p>
+                              </div>
+                            </a><span class="dropdown__title mt-0">DESIGN PRODUCTS</span><a href="#" class="dropdown__link">
+                              <div><span class="dropdown__icon"><i class="fas fa-bed"></i></span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
+                              <div class="dropdown__item"><span class="dropdown__item-title">Clsname</span>
+                                <p class="dropdown__item-description">The easiest way to work with HTML from your browser.</p>
+                              </div>
+                            </a></div>
+                        </div>
                       </div>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul><button close-nav-menu="" class="ft-menu__close-btn animated"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
-                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"></path>
-              </svg></button>
-          </li>
-          <li class="hero-nav__item d-lg-none d-flex flex-row-reverse"><button open-nav-menu="" class="text-center px-2"><i class="fas fa-bars"></i></button></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="hero__body">
-      <div class="hero_body_left">
-        <h1 class="hero__title mb-4">Create<br/>Digital Products<br/>with <span class="highlight">Confidence</span></h1>
-        <div class="hero__btns-container">
-          <a class="hero__btn btn btn-primary btn-lg" href="#!">Learn How</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul><button close-nav-menu="" class="ft-menu__close-btn animated"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                  <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"></path>
+                </svg></button>
+            </li>
+            <li class="hero-nav__item d-lg-none d-flex flex-row-reverse"><button open-nav-menu="" class="text-center px-2"><i class="fas fa-bars"></i></button></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero__body">
+        <div class="hero_body_left">
+          <h1 class="hero__title mb-4">Create<br/>Digital Products<br/>with <span class="highlight">Confidence</span></h1>
+          <div class="hero__btns-container">
+            <a class="hero__btn btn btn-primary btn-lg" href="#!">Learn How</a>
+          </div>
+        </div>
+        <!-- <div class="col-lg-6 mt-5 mt-lg-0"> had to get rid of 'mt-5' class for top-margin on mobile -->
+        <div class="col-lg-6 mt-lg-0">
+          <div class="hero__img-container block1"><img class="hero__img w-100" src="images/Teammates5.png"></div>
         </div>
       </div>
-      <!-- <div class="col-lg-6 mt-5 mt-lg-0"> had to get rid of 'mt-5' class for top-margin on mobile -->
-      <div class="col-lg-6 mt-lg-0">
-        <div class="hero__img-container"><img class="hero__img w-100" src="images/Teammates5.png"></div>
+    </div>
+  </header>
+  <!--Block 1 ends---------------->
+  <!--Block 2---------------->
+  <div class="block-24 space-between-blocks">
+    <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+      <h3 class="block__title"><span class="highlight">Work with us.</span><br/>We are proud of the work we produce.</h3>
+    </div>
+    <div class="clients-carousel">
+      <img class="clients-carousel cell" src="images/Proxxi-Technology.png"> 
+      <img class="clients-carousel cell" src="images/VirginPulse.png"> 
+      <img class="clients-carousel cell" src="images/Goodbits.png"> 
+      <img class="clients-carousel cell" src="images/Synaptitude.png"> 
+      <img class="clients-carousel cell" src="images/Proxxi-Technology.png"> 
+      <img class="clients-carousel cell" src="images/VirginPulse.png"> 
+      <img class="clients-carousel cell" src="images/Goodbits.png"> 
+      <img class="clients-carousel cell" src="images/Synaptitude.png"> 
+    </div>
+  </div>
+  <!--Block 2 ends---------------->
+  <!--Block 3---------------->
+  <div class="hero__body">
+    <div class="col-lg-6 mt-lg-0">
+      <div class="hero__img-container block3"><img class="hero__img w-100" src="images/Teammates9.png"></div>
+    </div>
+    <div class="hero_body_block3-right">
+      <h2>We offer training, agile<br/>project management,<br/>procurement,<br/>compliance, and design.</h2>
+      <svg width="100" height="20">
+        <rect width="80" height="12" style="fill:#77ADFF;stroke-width: 0" />
+      </svg>
+      <p>We're a software engineering and consulting agency with expertise in scaling web experiences and the technology teams that power them. Our clients often hire us to be on point for mission-critical software projects.</p>
+    </div>
+  </div>
+  <!--Block 3 ends---------------->
+  <!--Block 4---------------->
+  <div class="block__title block4">
+    <h2>Our various areas of expertise<br/>can help your company grow</h2>
+  </div>
+  <div class="block-19">
+    <div class="container">
+      <div class="row px-2 pt-4">
+        <div class="col-lg-4 pb-5">
+          <div class="testimonial-card-1">
+            <h6>Agile DevOps</h6>
+            <p class="testimonial-card-1__paragraph">We enable and support high-quality code production by bringing together the best practices and workflows for hybrid dev teams.
+              <ul>
+                <li>High Quality Code</li>
+                <li>Team Leadership</li>
+                <li>Hybrid Development Workflows</li>
+              </ul>
+            </p>
+            <span class="testimonial-card-1__quote-symbol"><img src="images/expertise_icon1.png" width='60' height='60'/></span>
+          </div>
+        </div>
+        <div class="col-lg-4 pb-5">
+          <div class="testimonial-card-1">
+            <h6>Software Development</h6>
+            <p class="testimonial-card-1__paragraph">We try to implement value-added feature development and to test new technologies, while respecting your existing codebase.
+            <br/>
+            <br/>
+            We excel in <strong>TypeScript, Hybrid, Javascript, Spring, Ruby on Rails, and Python.</strong> We have cross functional hardware, software, and certification experience in complex industries.
+            </p>
+            <span class="testimonial-card-1__quote-symbol"><img src="images/expertise_icon2.png" width='60' height='60'/></span>
+          </div>
+        </div>
+        <div class="col-lg-4 pb-5">
+          <div class="testimonial-card-1">
+            <h6>Technical Leadership</h6>
+            <p class="testimonial-card-1__paragraph">Do you require a fully scoped roadmap and strategy?
+            <br/>
+            <br/>
+            Get your project off to a strong start with our <strong>Fractional CTO</strong> service. We are comfortable with projects that don't fit in boxes.
+            </p>
+            <span class="testimonial-card-1__quote-symbol"><img src="images/expertise_icon3.png" width='60' height='60'/></span>
+          </div>
+        </div>
+        <div class="col-lg-4 pb-5">
+          <div class="testimonial-card-1">
+            <h6>Product Strategy</h6>
+            <p class="testimonial-card-1__paragraph">Getting product strategy and execution right is a difficult balancing act. We bake <strong>inclusive design, privacy, due diligence, and compliance</strong> into a software project's functional requirements from the start.
+            <br/>
+            <br/>
+            Trust our judgment in managing the full range of project considerations while keeping the current deadlines and scope in mind.
+            </p>
+            <span class="testimonial-card-1__quote-symbol"><img src="images/expertise_icon4.png" width='60' height='60'/></span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</header>
-<!--Block 1 ends---------------->
-<!--Block 2---------------->
-<div class="block-24 space-between-blocks">
-  <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
-    <h3 class="block__title"><span class="highlight">Work with us.</span><br/>We are proud of the work we produce.</h3>
-  </div>
-  <div class="clients-carousel">
-    <img class="clients-carousel cell" src="images/Proxxi-Technology.png"> 
-    <img class="clients-carousel cell" src="images/VirginPulse.png"> 
-    <img class="clients-carousel cell" src="images/Goodbits.png"> 
-    <img class="clients-carousel cell" src="images/Synaptitude.png"> 
-    <img class="clients-carousel cell" src="images/Proxxi-Technology.png"> 
-    <img class="clients-carousel cell" src="images/VirginPulse.png"> 
-    <img class="clients-carousel cell" src="images/Goodbits.png"> 
-    <img class="clients-carousel cell" src="images/Synaptitude.png"> 
-  </div>
-</div>
-<!--Block 2 ends---------------->
+  <!--Block 4 ends---------------->
 
 
 
-<!--Block 1 fix nav bar at top when scrolled ---------------->
+<!--Block 1 fix nav bar at top when scrolled & drop down menus -------------->
 <!-- <script src="https://unpkg.com/tua-body-scroll-lock"></script>
 <script>
   var showDropdown = function(e) {

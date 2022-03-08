@@ -22,6 +22,13 @@ body {
 
 h1 {
   font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.3;
 }
 
 p {
@@ -107,7 +114,7 @@ button:focus {
 
 .btn-lg {
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 @media (min-width: 992px) {
@@ -124,7 +131,7 @@ button:focus {
 /* block header */
 
 .block__header {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .block__title {
@@ -141,6 +148,10 @@ button:focus {
   .block__title--big {
     font-size: 3rem;
     line-height: 1.1;
+  }
+
+  .block__header {
+    margin-bottom: 4rem;
   }
 }
 
@@ -199,7 +210,7 @@ button:focus {
   }
 }
 
-/* Block 1 Starts */
+/* <<<------ Block 1 Starts ------>>> */
 .hero {
   --hero-nav-height: 100px;
   --dropdown-background: white;
@@ -887,22 +898,23 @@ button:focus {
 @media(min-width:992px) {
   .hero__body {
     padding-top: 0rem;
-    padding-bottom: 9rem
+    padding-bottom: 10rem
   }
 
   .hero_body_left {
     margin-top: 10%;
+    margin-left: 2%;
     width: 70%; 
   }
 
-  .hero__img-container {
+  .hero__img-container.block1 {
     width: 100%;
     margin-left: 10%;
   }
 }
 
 .hero__title {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 800;
 }
 
@@ -933,7 +945,7 @@ button:focus {
 
 @media(min-width:992px) {
   .hero__title {
-    font-size: 4.3rem;
+    font-size: 3.9rem;
   }
 
   .hero__paragraph {
@@ -943,12 +955,17 @@ button:focus {
 }
 
 .hero__btns-container {
-  margin-left: -.5rem;
-  margin-right: -.5rem
+  margin: -0.5rem -0.5rem 0 -0.5rem;
+}
+
+@media(min-width: 576px) {
+  .hero__btns-container {
+    margin: 0 -0.5rem;
+  }
 }
 /* Block 1 Ends */
 
-/* Block 2 */
+/* <<<------ Block 2 Starts ------>>> */
 .block-24 {
   --block-background: rgba(196, 196, 196, 0.26);
   --block-text-color: var(--text-primary);
@@ -958,7 +975,7 @@ button:focus {
 }
 
 .block__title {
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -967,13 +984,7 @@ button:focus {
 }
 
 .clients-carousel {
-  margin: 0 10% 0 10%; 
-}
-
-.clients-carousel.cell {
-  height: 55px;
-  object-fit: contain;
-  margin: 0 4.75rem 3rem 4.75rem;
+  margin: 0 8% 0 12%;
 }
 
 .flickity-page-dots .dot {
@@ -988,15 +999,30 @@ button:focus {
   background: #77ADFF;
 }
 
-@media(max-width:500px) { /* FIX THIS */
-  /* .clients-carousel.cell  {
-    flex: 0 0 auto;
-    max-width: 40%;
-    padding: 15px;
-    margin: 0;
-    width: auto;
-    height: auto
-  } */
+.clients-carousel.cell img {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.clients-carousel.cell {
+  margin: 0 1.5rem 1.2rem 1.5rem;
+}
+
+@media (min-width:576px) {
+  .block__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .clients-carousel {
+    margin: 0 10% 0 10%; 
+  }
+
+  .clients-carousel.cell {
+    height: 55px;
+    margin: 0 4.75rem 3rem 4.75rem;
+  }
 }
 
 @media(min-width:992px) {
@@ -1009,4 +1035,140 @@ button:focus {
 .clients-carousel.cellg:hover {
   opacity: 1
 }
-/* Block 2 ends*/
+/* Block 2 ends */
+
+/* <<<------ Block 3 Starts ------>>> */
+
+.hero__img-container.block3 {
+  margin-left: -6%;
+  /* margin-top: -24.5%; */ /* for mobile, what do you want to do with this img? */
+  width: 70%;
+}
+
+.hero_body_block3-right {
+  margin: 0 7% 0 -18%;
+  width: 70%;
+}
+
+.hero_body_block3-right h2{
+  font-size: 1.2em;
+}
+
+.hero_body_block3-right p{
+  font-size: 0.7em;
+}
+
+.hero_body_block3-right svg {
+  margin: 1.5em 0 0.9em 0; 
+}
+
+@media(min-width: 576px) {
+  .hero__img-container.block3 {
+    margin-left: -6%;
+    margin-top: -16.7%;
+    width: 80%;
+  }
+
+  .hero_body_block3-right {
+    margin: 0 5% 0 0;
+  }
+}
+
+@media (min-width:768px) {
+  .hero__img-container.block3 {
+    margin-left: -3.5%;
+    margin-top: -3.6%;
+    width: 90%;
+  }
+}
+
+@media(min-width:992px) {
+  .hero__img-container.block3 {
+    margin-left: -2.2%;
+    margin-top: -9.3%;
+    width: 100%;
+  }
+
+  .hero_body_block3-right h2{
+    font-size: 2.5em;
+  }
+
+  .hero_body_block3-right p {
+    font-size: 1.8em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-right: 15%;
+  }
+
+  .hero_body_block3-right svg {
+    margin: 2.5em 0 2em 0; 
+  }
+
+}
+/* Block 3 ends */
+
+/* <<<------ Block 4 Starts ------>>> */
+
+.block__title.block4{
+  background-color: white;
+  border: 6px solid var(--secondary);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 25% -5% 25%;
+  padding: 0.3em;
+}
+
+.block-19 {
+  --block-background: var(--secondary);
+  --block-text-color: var(--text-primary);
+  background: var(--block-background);
+  color: var(--block-text-color);
+  padding-top: 10%;
+  position: relative;
+  z-index: -1;
+}
+
+.testimonial-card-1 {
+  background-color: white;
+  padding: 3rem 2.2rem 2.2rem 2.2rem;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .09);
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.testimonial-card-1__paragraph {
+  flex-grow: 1;
+  font-size: .95rem;
+  opacity: .9;
+  line-height: 1.7;
+  padding-bottom: 1.5rem
+}
+
+.testimonial-card-1__quote-symbol {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: var(--gradient-primary, --primary);
+  color: var(--primary-invert);
+  font-size: 1.3rem;
+  border-radius: 10rem;
+  position: absolute;
+  top: -25px;
+  left: 30px
+}
+
+@media(min-width: 576px){
+  .col-lg-4 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+/* Block 4 ends */
