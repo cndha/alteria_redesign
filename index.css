@@ -1291,3 +1291,10 @@ button:focus {
   }
 }
 /* Block 4 ends */
+
+/* <<<------ Block 5 Starts ------>>> */
+.hero__img-container.block5 {
+  display: flex;
+  margin: 1% 0;
+}
+/* Block 5 ends */
