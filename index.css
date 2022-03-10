@@ -94,7 +94,7 @@ button:focus {
 .btn:hover,
 .btn:focus {
   border: none;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.838); /* do you need a box-shadow on buttons? */
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.557); /* do you need a box-shadow on buttons? */
   outline: none;
 }
 
@@ -1150,7 +1150,7 @@ button:focus {
 }
 
 .block__title.overlay-blue-border.block4 h2{
-  font-size: 1.2em;
+  font-size: 0.7em;
 }
 
 .block-19.block4 {
@@ -1159,6 +1159,7 @@ button:focus {
   background: var(--block-background);
   color: var(--block-text-color);
   padding-top: 17%;
+  padding-bottom: 3%;
   position: relative;
   z-index: -1;
 }
@@ -1183,7 +1184,6 @@ button:focus {
   /* flex-grow: 1; */
   font-size: 1rem;
   line-height: 1.5;
-  padding-bottom: 2rem;
 }
 
 .testimonial-card-1__list {
@@ -1204,11 +1204,12 @@ button:focus {
   border-radius: 10rem;
   position: absolute;
   top: -25px;
-  left: 30px
+  left: 30px;
 }
 
 .testimonial-card-1__quote-symbol img{
   border-radius: 7px;
+  box-shadow: 0 4px 2px -1px rgba(128, 128, 128, 0.557);
 }
 
 @media(min-width: 576px){
@@ -1228,11 +1229,11 @@ button:focus {
   }
 
   .block__title.overlay-blue-border.block4 {
-    margin: 0 10% -9% 10%;
+    margin: 0 17% -7% 17%;
   }
 
   .block__title.overlay-blue-border.block4 h2{
-    font-size: 0.8em;
+    font-size: 1rem;
   }
 
   .block-19.block4 {
@@ -1246,7 +1247,6 @@ button:focus {
   .testimonial-card-1 h3{
     height: 3rem;
   }
-
 }
 
 @media (min-width:768px) {
@@ -1263,7 +1263,15 @@ button:focus {
   }
 
   .block__title.overlay-blue-border.block4{
-    margin: 0 15% -5% 15%;
+    margin: 0 22% -5% 22%;
+  }
+
+  .block__title.overlay-blue-border.block4 h2{
+    font-size: 1.1rem;
+  }
+
+  .testimonial-card-1__paragraph {
+    padding-bottom: 1rem;
   }
 }
 
@@ -1285,7 +1293,22 @@ button:focus {
   }
 
   .block__title.overlay-blue-border.block4{
-    margin: 0 32% -2% 32%;
+    margin: 0 27% -4% 27%;
+  }
+
+  .block__title.overlay-blue-border.block4 h2{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+  }
+
+  .testimonial-card-1__paragraph {
+    padding-bottom: 2rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .block__title.overlay-blue-border.block4{
+    margin: 0 32% -4% 32%;
   }
 }
 /* Block 4 ends */
@@ -1304,81 +1327,82 @@ button:focus {
 }
 
 .block__title.overlay-blue-border.block6 h2{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  padding: 0.2rem;
 }
 
 .block-19.block6.first {
   background-color: rgba(119, 173, 255, 0.66);
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .block-19.block6.second {
   background-color: rgba(119, 173, 255, 0.82);
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .block-19.block6.third {
   background-color: #77ADFF;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .big-num-text-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 0 8% 0 3%; */
+  margin: 0 5% 0 3%;
 }
 
 .extremely-large-num {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 18rem;
+  font-size: 15rem;
 }
 
 .text-beside-large-num {
-  margin: 5% 0 0 0;
+  margin: 5% 0 0 5%;
 }
 
 .block-title-beside-large-num{
-  font-size: 1.8rem;
-  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
 }
 
 .paragraph-beside-large-num{
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 550px) {
   .block__title.overlay-blue-border.block6 {
     margin: 0 13% -7% 13%;
   }
 
   .big-num-text-container{
-    margin: 5% 5% 0 1%;
+    margin: 5% 7% 0 5%;
   }
 
   .extremely-large-num {
-    font-size: 19rem;
+    font-size: 18rem;
   }
 
   .text-beside-large-num{
-    margin: 0 3% 0 2%;
+    margin: 0 3% 0 5%;
   }
 
   .block-title-beside-large-num{
-    font-size: 2.3rem;
-    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
   }
   
   .paragraph-beside-large-num{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 
 @media(min-width: 640px) {
   .block__title.overlay-blue-border.block6 {
-    margin: 0 15% -5% 15%;
+    margin: 0 18% -5% 18%;
   }
 
   .big-num-text-container{
@@ -1386,21 +1410,26 @@ button:focus {
   }
 
   .extremely-large-num {
-    font-size: 20rem;
+    font-size: 19rem;
   }
 
   .block-title-beside-large-num{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   
   .paragraph-beside-large-num{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 @media(min-width: 768px) {
   .block__title.overlay-blue-border.block6 {
-    margin: 0 27% -3% 27%;
+    margin: 0 27% -4% 27%;
+  }
+
+  .block__title.overlay-blue-border.block6 h2 {
+    font-size: 1.2rem;
+    padding: 0.3rem;
   }
 
   .big-num-text-container{
@@ -1408,48 +1437,75 @@ button:focus {
   }
 
   .extremely-large-num {
-    font-size: 22rem;
+    font-size: 20rem;
   }
 
   .text-beside-large-num{
-    margin: 0 12% 0 8%;
+    margin: 0 3% 0 6%;
   }
 
   .block-title-beside-large-num{
-    font-size: 2.5rem;
-    padding-bottom: 1.5rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.2rem;
   }
   
   .paragraph-beside-large-num{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 
 @media(min-width: 992px) {
   .block__title.overlay-blue-border.block6 {
-    margin: 0 32% -2% 32%;
+    margin: 0 32% -3% 32%;
+  }
+
+  .block__title.overlay-blue-border.block6 h2 {
+    font-size: 1.3rem;
+    padding: 0.5rem;
   }
 
   .big-num-text-container{
-    margin: 0% 20% 0 17%;
+    margin: 3% 15%;
   }
 
   .extremely-large-num {
-    font-size: 25rem;
+    font-size: 22rem;
   }
 
   .text-beside-large-num{
-    margin: 0 10% 0 6%;
+    margin: 0 5% 0 6%;
   }
 
   .block-title-beside-large-num{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   
   .paragraph-beside-large-num{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .big-num-text-container{
+    margin: 0% 20%;
+    max-width: 60%;
   }
 
+  .extremely-large-num {
+    font-size: 23rem;
+  }
+
+  .block-title-beside-large-num{
+    font-size: 2.55rem;
+  }
+
+  .paragraph-beside-large-num{
+    font-size: 1.25rem;
+  }
+
+  .text-beside-large-num{
+    margin: 0 6% 0 9%;
+  }
 }
 /* Block 6 ends */
 
@@ -1527,7 +1583,7 @@ button:focus {
   .container.footer {
     padding: 0 0 !important;
   }
-  
+
   .block-41__li {
     font-size: 1.1rem;
     padding-left: 0rem;
