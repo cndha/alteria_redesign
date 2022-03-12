@@ -129,7 +129,7 @@ button:focus {
 
 .btn-lg {
   padding: 0.5rem 1rem;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -884,6 +884,10 @@ a:hover{
   /* display: flex; */
 }
 
+.hero_body_left {
+  margin-left: 5%;
+}
+
 .hero__img-container {
   /* position: absolute; */
   width: 100%;
@@ -1319,11 +1323,12 @@ a:hover{
 }
 
 .block__title.overlay-blue-border.block4 {
-  margin: 0 10% -10% 10%;
+  margin: 0 12% -8% 12%;
 }
 
 .block__title.overlay-blue-border.block4 h2{
   font-size: 0.7em;
+  padding: 0.2rem;
 }
 
 .block-19.block4 {
@@ -1383,6 +1388,12 @@ a:hover{
 .testimonial-card-1__quote-symbol img{
   border-radius: 7px;
   box-shadow: 0 4px 2px -1px rgba(128, 128, 128, 0.557);
+}
+
+@media(min-width: 500px) {
+  .block__title.overlay-blue-border.block4 {
+    margin: 0 12% -8% 12%;
+  }
 }
 
 @media(min-width: 576px){
@@ -1496,7 +1507,7 @@ a:hover{
 /* <<<------ Block 6 Starts ------>>> */
 
 .block__title.overlay-blue-border.block6 {
-  margin: 0 10% -7% 10%;
+  margin: 0 12% -7% 12%;
 }
 
 .block__title.overlay-blue-border.block6 h2{
