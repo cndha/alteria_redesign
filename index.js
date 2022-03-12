@@ -8,7 +8,6 @@ $(document).ready(function() {
     prevNextButtons: false,
     pageDots: true,
     wrapAround: false,
-    groupCells: 4,
   });
 
 });
