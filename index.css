@@ -1326,16 +1326,16 @@ a:hover{
   z-index: 1;
 }
 
-.block__title.overlay-blue-border.block4 {
+.block__title.overlay-blue-border.two-lines {
   margin: 0 12% -8% 12%;
 }
 
-.block__title.overlay-blue-border.block4 h2{
+.block__title.overlay-blue-border.two-lines h2{
   font-size: 0.7em;
   padding: 0.2rem;
 }
 
-.block-19.block4 {
+.blue-block.with-cards {
   --block-background: var(--secondary);
   --block-text-color: var(--text-primary);
   background: var(--block-background);
@@ -1395,13 +1395,13 @@ a:hover{
 }
 
 @media(min-width: 500px) {
-  .block__title.overlay-blue-border.block4 {
+  .block__title.overlay-blue-border.two-lines {
     margin: 0 12% -8% 12%;
   }
 }
 
 @media(min-width: 576px){
-  .container.block4 {
+  .container.with-cards {
     display: flex;
     justify-content: center;
   }
@@ -1416,15 +1416,15 @@ a:hover{
     padding: 3%;
   }
 
-  .block__title.overlay-blue-border.block4 {
+  .block__title.overlay-blue-border.two-lines {
     margin: 0 17% -7% 17%;
   }
 
-  .block__title.overlay-blue-border.block4 h2{
+  .block__title.overlay-blue-border.two-lines h2{
     font-size: 1rem;
   }
 
-  .block-19.block4 {
+  .blue-block.with-cards {
     padding-top: 15%;
   }
 
@@ -1446,15 +1446,15 @@ a:hover{
     padding: 4%;
   }
 
-  .block-19.block4 {
+  .blue-block.with-cards {
     padding-top: 10%;
   }
 
-  .block__title.overlay-blue-border.block4{
+  .block__title.overlay-blue-border.two-lines {
     margin: 0 22% -5% 22%;
   }
 
-  .block__title.overlay-blue-border.block4 h2{
+  .block__title.overlay-blue-border.two-lines h2{
     font-size: 1.1rem;
   }
 
@@ -1476,15 +1476,15 @@ a:hover{
     font-size: 1.4rem;
   }
 
-  .block-19.block4 {
+  .blue-block.with-cards {
     padding-top: 5%;
   }
 
-  .block__title.overlay-blue-border.block4{
+  .block__title.overlay-blue-border.two-lines {
     margin: 0 27% -4% 27%;
   }
 
-  .block__title.overlay-blue-border.block4 h2{
+  .block__title.overlay-blue-border.two-lines h2{
     font-size: 1.4rem;
     padding: 0.5rem;
   }
@@ -1495,7 +1495,7 @@ a:hover{
 }
 
 @media(min-width: 1200px) {
-  .block__title.overlay-blue-border.block4{
+  .block__title.overlay-blue-border.two-lines {
     margin: 0 32% -4% 32%;
   }
 }
@@ -1510,26 +1510,26 @@ a:hover{
 
 /* <<<------ Block 6 Starts ------>>> */
 
-.block__title.overlay-blue-border.block6 {
+.block__title.overlay-blue-border.single-line {
   margin: 0 12% -7% 12%;
 }
 
-.block__title.overlay-blue-border.block6 h2{
+.block__title.overlay-blue-border.single-line h2{
   font-size: 1.1rem;
   padding: 0.2rem;
 }
 
-.block-19.block6.first {
+.blue-block.block6.first {
   background-color: rgba(119, 173, 255, 0.66);
   padding: 1rem 0;
 }
 
-.block-19.block6.second {
+.blue-block.block6.second {
   background-color: rgba(119, 173, 255, 0.82);
   padding: 1rem 0;
 }
 
-.block-19.block6.third {
+.blue-block.block6.third {
   background-color: #77ADFF;
   padding: 1rem 0;
 }
@@ -1562,7 +1562,7 @@ a:hover{
 }
 
 @media(min-width: 550px) {
-  .block__title.overlay-blue-border.block6 {
+  .block__title.overlay-blue-border.single-line {
     margin: 0 13% -7% 13%;
   }
 
@@ -1589,7 +1589,7 @@ a:hover{
 }
 
 @media(min-width: 640px) {
-  .block__title.overlay-blue-border.block6 {
+  .block__title.overlay-blue-border.single-line {
     margin: 0 18% -5% 18%;
   }
 
@@ -1611,11 +1611,11 @@ a:hover{
 }
 
 @media(min-width: 768px) {
-  .block__title.overlay-blue-border.block6 {
+  .block__title.overlay-blue-border.single-line {
     margin: 0 27% -4% 27%;
   }
 
-  .block__title.overlay-blue-border.block6 h2 {
+  .block__title.overlay-blue-border.single-line h2 {
     font-size: 1.2rem;
     padding: 0.3rem;
   }
@@ -1643,11 +1643,11 @@ a:hover{
 }
 
 @media(min-width: 992px) {
-  .block__title.overlay-blue-border.block6 {
+  .block__title.overlay-blue-border.single-line {
     margin: 0 32% -3% 32%;
   }
 
-  .block__title.overlay-blue-border.block6 h2 {
+  .block__title.overlay-blue-border.single-line h2 {
     font-size: 1.3rem;
     padding: 0.5rem;
   }
