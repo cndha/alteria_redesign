@@ -1,6 +1,7 @@
 :root {
   --primary: #1756BE;
   --secondary: #427FE0;
+  --tertiary: #A5C9FF;
   --primary-invert: #fff;
   --secondary-invert: #fff;
 
@@ -52,7 +53,7 @@ h3 {
   font-family: "Raleway", sans-serif;
   letter-spacing: 1.5px;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 p {
@@ -1360,6 +1361,7 @@ a:hover{
 .testimonial-card-1 h3{
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-weight: 800;
 }
 
 .testimonial-card-1__paragraph {
@@ -1502,9 +1504,10 @@ a:hover{
 /* Block 4 ends */
 
 /* <<<------ Block 5 Starts ------>>> */
-.hero__img-container.block5 {
+.hero__img-container.two-hero-imgs {
   display: flex;
   margin: 1% 0;
+  overflow: hidden;
 }
 /* Block 5 ends */
 
