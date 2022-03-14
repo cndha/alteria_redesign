@@ -176,7 +176,7 @@
 }
 
 .timeline-text {
-  margin: 3% 1%;
+  margin: 5% 1%;
 }
 
 .timeline-text.phases {
@@ -419,7 +419,7 @@
 /* --- SERVICES: Block 5 --- */
 .white-block-container{
   margin: 0 3%;
-  padding-bottom: 5%;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -450,6 +450,7 @@
 @media(min-width: 500px) {
   .white-block-container{
     margin: 0 4%;
+    padding-bottom: 1.5rem;
   }
 
   .security-text h6 {
@@ -540,6 +541,7 @@
 @media(min-width: 900px) {
   .white-block-container{
     margin: 0 10%;
+    padding-bottom: 2rem;
   }
 
   .white-block-title{
@@ -583,3 +585,94 @@
 }
 
 /* --- SERVICES: Block 6 --- */
+.med-blu-block {
+  background-color: #8FBCFF;
+}
+
+.med-blu-block.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 12% 5%;
+}
+
+.med-blu-block.container img {
+  width: 30%;
+}
+
+.med-blu-block.container h2 {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.med-blu-block.container p {
+  margin: 0 0.5rem 2rem 0.5rem;
+}
+
+.btn-xlg {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 0.5rem 2rem;
+}
+
+@media(min-width: 600px) {
+  .med-blu-block.container h2 {
+    font-size: 1.6rem;
+  }
+
+  .btn-xlg {
+    font-size: 1.7rem;
+    padding: 0.5rem 2.5rem;
+  }
+}
+
+@media(min-width: 750px) {
+  .med-blu-block.container h2 {
+    font-size: 1.7rem;
+  }
+
+  .med-blu-block.container p {
+    font-size: 1.1rem;
+  }
+
+  .btn-xlg {
+    font-size: 1.9rem;
+  }
+}
+
+@media(min-width: 767px){
+  .med-blu-block.container {
+    padding: 10% 15%;
+  }
+}
+
+@media(min-width: 830px) {
+  .med-blu-block.container h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn-xlg {
+    font-size: 2rem;
+  }
+}
+
+@media(min-width: 992px) {
+  .med-blu-block.container {
+    padding: 8% 20%;
+  }
+
+  .med-blu-block.container img {
+    width: 40%;
+  }
+
+  .med-blu-block.container h2 {
+    font-size: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .btn-xlg {
+    font-size: 2.2rem;
+  }
+}
