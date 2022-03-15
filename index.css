@@ -2,6 +2,7 @@
   --primary: #1756BE;
   --secondary: #427FE0;
   --tertiary: #A5C9FF;
+  --quaternary: #8FBCFF;
   --primary-invert: #fff;
   --secondary-invert: #fff;
 
@@ -1317,7 +1318,7 @@ a:hover{
 
 .block__title.overlay-blue-border{
   background-color: white;
-  border: 5px solid var(--secondary);
+  border: 3px solid var(--secondary);
   border-radius: 7px;
   display: flex;
   justify-content: center;

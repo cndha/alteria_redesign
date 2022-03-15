@@ -586,7 +586,7 @@
 
 /* --- SERVICES: Block 6 --- */
 .med-blu-block {
-  background-color: #8FBCFF;
+  background-color: var(--quaternary);
 }
 
 .med-blu-block.container {
