@@ -1,70 +1,115 @@
 /* --- Block 1 --- */
 
 .hero_body.text-on-left {
-  margin: 5% 0 0 15%;
+  margin: 10% 0 0 15%;
 }
 
 .hero_body.text-on-left h3 {
   color: var(--primary);
-  font-size: 1.2rem;
-  margin-bottom: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero_body.text-on-left h1 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   font-weight: 800;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .hero__img-container.hero-img-right {
-  margin-left: 0 !important;
+  width: 80%;
+  margin-left: 20%;
+}
+
+@media(min-width: 600px) {
+  .hero_body.text-on-left h3 {
+    font-size: 1.6rem;
+  }
+  
+  .hero_body.text-on-left h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(min-width: 750px) {
+  .hero__body {
+    margin-bottom: 15%;
+  }
+
+  .hero_body.text-on-left {
+    margin: 0 0 0 15%;
+  }
+
+  .hero_body.text-on-left h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media(min-width: 850px) {
+  .hero__body {
+    margin-bottom: 10%;
+  }
 }
 
 @media(min-width: 992px) {
-  .hero_body.text-on-left {
-    margin: 20% 0 0 15%;
+  .hero__body {
+    margin-bottom: 6%;
+  }
+
+  .hero_body.text-on-left h3 {
+    font-size: 1.7rem;
+  }
+  
+  .hero_body.text-on-left h1 {
+    font-size: 4rem;
   }
 }
 
 /* -- Block 2 --- */
-.block__title.overlay-blue-border.single-line.case-study {
-  margin-top: -10%;
+.block__title.overlay-blue-border.single-line.case-study, .block__title.overlay-blue-border.single-line.case-study-fussy {
+  margin: -9% 12% -7% 12%;
+}
+
+.white-block__withoverlay {
+  padding: 15% 10% 20% 10%;
+}
+
+.white-block{
+  padding: 15% 10% 10% 10%;
 }
 
 .light-blue-block {
   background-color: var(--tertiary);
+  padding: 15% 10% 20% 10%;
 }
 
 .med-deep-blue-block {
   background-color: #77ADFF;
+  padding: 15% 10% 20% 10%;
 }
 
 .deep-blue-block {
   background-color: var(--primary);
+  padding: 8%;
 }
 
 .case-study_text {
-  padding: 15% 10% 15% 10%;
   text-align: center;
 }
 
-.case-study_text h3 {
-  font-size: 1.5rem;
-  padding-bottom: 2rem;
+.case-study_text h3, .case-study_text h2 {
+  font-size: 1.3rem;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
 }
 
 .case-study_text svg {
   margin-bottom: 1rem;
 }
 
-.paragraph_text {
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 0;
-  padding-bottom: 1.5rem;
-}
-
 .case-study_outcomes {
-  padding: 15% 10% 8% 10%;
+  padding: 10% 10% 5% 10%;
 }
 
 .case-study_single_outcome {
@@ -73,9 +118,157 @@
   align-items: center;
   text-align: center;
   color: white;
-  padding: 10%;
+  padding: 8%;
 }
 
 .case-study_single_outcome img {
   padding-bottom: 7%;
+}
+
+@media(min-width: 500px) {
+  .block__title.overlay-blue-border.single-line.case-study, .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -7% 13% -6% 13%;
+  }
+
+  .case-study_text h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width: 550px) {
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -6% 13% -5% 13%;
+  }
+}
+
+@media(min-width: 640px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -5% 18% -5% 18%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -5% 18% -5% 18%;
+  }
+
+  .case-study_text h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media(min-width: 665px) {
+    .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 13% 12% 15% 12%;
+  }
+}
+
+@media(min-width: 750px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -5% 21% -4% 21%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -4.5% 21% -4% 21%;
+  }
+
+  .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 13% 12%;
+  }
+
+  .case-study_outcomes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 8rem;
+  }
+
+  .case-study_single_outcome img {
+    width: 50px;
+    height: 60px;
+    padding-bottom: 15%;
+  }
+
+  .case-study_text h3 {
+    font-size: 1.4rem;
+  }
+
+  .case-study_text h2 {
+    font-size: 2rem;
+  }
+}
+
+@media(min-width: 768px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -5% 27% -4% 27%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -4% 27% -4% 27%;
+  }
+
+  .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 12% 14%;
+  }
+}
+
+@media(min-width: 820px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -5% 27% -4% 27%;
+  }
+}
+
+@media(min-width: 900px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -4% 27% -4% 27%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -4% 27% -4% 27%;
+  }
+
+  .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 12% 17%;
+  }
+}
+
+@media(min-width: 992px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -4% 32% -4% 32%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -4% 32% -3% 32%;
+  }
+}
+
+@media(min-width: 1000px) {
+  .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 12% 20%;
+  }
+}
+
+@media(min-width: 1150px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -3.5% 32% -3.5% 32%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -3.5% 32% -4% 32%;
+  }
+
+  .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 10% 23%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -3.5% 32% -3% 32%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study-fussy {
+    margin: -3% 32% -3% 32%;
+  }
+
+  .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
+    padding: 8% 25%;
+  }
 }

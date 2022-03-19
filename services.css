@@ -602,12 +602,13 @@
 }
 
 .med-blu-block.container h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
 .med-blu-block.container p {
   margin: 0 0.5rem 2rem 0.5rem;
+  font-size: 1.1rem;
 }
 
 .btn-xlg {
