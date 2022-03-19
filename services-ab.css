@@ -13,14 +13,15 @@
   margin: 0 7%;
 }
 
-.hero__title.pre{
+.hero_body.text-on-right h3{
   color: var(--primary);
   font-size: 1.2rem;
   margin-bottom: 0;
 }
 
-.hero__title.services-title {
+.hero_body.text-on-right h1 {
   font-size: 2.3rem;
+  font-weight: 800;
   padding-bottom: 1rem;
 }
 
@@ -33,7 +34,6 @@
 @media(min-width: 750px) {
   .hero__body {
     display: flex; 
-    justify-content: center;
     align-items: center;
   }
 
@@ -41,21 +41,21 @@
     margin-left: -3%;
   }
 
-  .hero__title.pre{
+  .hero_body.text-on-right h3{
     font-size: 1.4rem;
   }
   
-  .hero__title.services-title {
+  .hero_body.text-on-right h1 {
     font-size: 2.5rem;
   }
 }
 
 @media(min-width: 992px) {
-  .hero__title.pre{
+  .hero_body.text-on-right h3 {
     font-size: 1.7rem;
   }
   
-  .hero__title.services-title {
+  .hero_body.text-on-right h1 {
     font-size: 3rem;
   }
 }

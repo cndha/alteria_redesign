@@ -1,0 +1,250 @@
+/* --- Block 1 -- */
+.hero_body.text-on-right h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero_body.text-on-right h1 {
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.case_studies_links {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+@media(min-width: 550px) {
+  .hero__img-container.hero-img-left.projects {
+    width: 90%;
+  }
+}
+
+@media(min-width: 600px) {
+  .hero_body.text-on-right h3 {
+    font-size: 1.6rem;
+  }
+
+  .hero_body.text-on-right h1 {
+    font-size: 3rem;
+  }
+
+  .hero__img-container.hero-img-left.projects {
+    width: 80%;
+  }
+}
+
+@media(min-width: 700px) {
+  .hero__img-container.hero-img-left.projects {
+    width: 70%;
+  }
+}
+
+@media(min-width: 750px) {
+  .hero_body.text-on-right h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero__img-container.hero-img-left.projects {
+    width: 52%;
+  }
+  
+  .hero_body.text-on-right.projects.hero {
+    margin-left: -50%;
+    padding-right: 0;
+  }
+}
+
+@media(min-width: 992px) {
+  .hero__img-container.hero-img-left.projects {
+    width: 100%;
+  }
+  
+  .hero_body.text-on-right.projects.hero {
+    margin-left: -2%;
+  }
+
+  .hero_body.text-on-right h3 {
+    font-size: 1.7rem;
+  }
+
+  .hero_body.text-on-right h1 {
+    font-size: 4rem;
+  }
+
+  .case_studies_links {
+    font-size: 1.3rem;
+  }
+}
+
+/* --- Block 2 -- */
+.read-more-btn {
+  padding-top: 1rem;
+}
+
+.read-more {
+  color: var(--primary);
+  border: 3px solid var(--primary);
+  border-radius: 7px;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hero_body.text-on-right.projects img {
+  padding-bottom: 1rem;
+  width: 50%; /* can get rid of this when get real img size */
+  margin-left: -3%;
+}
+
+.hero_body.text-on-right.projects p{
+  margin-right: 5%; 
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+@media(min-width: 600px) {
+  .hero_body.text-on-right.projects img {
+    width: 40%;
+  }
+
+  .hero_body.text-on-right.projects {
+    padding-right: 3%;
+  }
+}
+
+
+@media(min-width: 750px) {
+  .hero__body {
+    padding-bottom: 0;
+  }
+
+  .col-lg-6 {
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+  }
+
+  .mt-5 {
+    margin-top: 0rem !important;
+  }
+  
+  .hero__body.projects{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    padding-bottom: 0;
+    margin-bottom: -5%;
+    z-index: -1;
+  }
+
+  .hero_body.text-on-right.projects img {
+    width: 40%;
+  }
+
+  .read-more-btn {
+    padding-top: 0;
+  }
+
+  .hero_body.text-on-right.projects.one{
+    margin-top: 2%;
+  }
+  .hero_body.text-on-right.projects.two{
+    margin-top: 8%;
+  }
+  .hero_body.text-on-right.projects.three{
+    margin-top: 2%;
+  }
+}
+
+@media(min-width: 800px) {
+  .read-more-btn{
+    padding-top: 2rem;
+  }
+}
+
+@media(min-width: 850px) {
+  .read-more-btn{
+    padding-top: 3rem;
+  }
+
+  .hero_body.text-on-right.projects.two{
+    margin-top: 6%;
+  }
+  .hero_body.text-on-right.projects.three{
+    margin-top: 3%;
+  }
+}
+
+@media(min-width: 900px) {
+  .hero_body.text-on-right.projects{
+    padding-right: 10%; 
+  }
+}
+
+@media(min-width: 925px) {
+  .hero_body.text-on-right.projects{
+    margin-right: 12%; 
+  }
+
+  .hero_body.text-on-right.projects p{
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+  }
+
+  .read-more {
+    font-size: 1.1rem;
+  }
+
+  .read-more-btn{
+    padding-top: 2.5rem;
+  }
+}
+
+@media(min-width: 992px) {
+  .col-lg-6 {
+    max-width: 100% !important;
+  }
+
+  .read-more-btn{
+    padding-top: 3rem;
+  }
+}
+
+@media(min-width: 1100px) {
+  .hero_body.text-on-right.projects{
+    padding-right: 15%; 
+  }
+
+  .hero_body.text-on-right.projects p{
+    font-size: 1.4rem;
+  }
+
+  /* .read-more-btn{
+    padding-top: 4rem;
+  } */
+}
+
+@media(min-width: 1200px) {
+  .hero_body.text-on-right.projects{
+    padding-right: 18%; 
+  }
+
+  .hero_body.text-on-right.projects h4 {
+    font-size: 1.65rem;
+  }
+
+  .hero_body.text-on-right.projects p{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  /* .read-more-btn{
+    padding-top: 7rem;
+  } */
+
+  .read-more {
+    font-size: 1.2rem;
+  }
+}

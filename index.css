@@ -64,7 +64,12 @@ p {
 
 strong {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.xtra-strong {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
 }
 
 /* Buttons */
@@ -887,10 +892,9 @@ a:hover{
   padding-bottom: 3rem;
   position: relative;
   z-index: 1;
-  /* display: flex; */
 }
 
-.hero_body_left {
+.hero_body.text-on-left {
   margin-left: 5%;
 }
 
@@ -911,15 +915,15 @@ a:hover{
     padding-bottom: 3rem;
   }
 
-  .hero_body_left {
+  .hero_body.text-on-left {
     margin-top: 10%;
     margin-left: 2%;
     width: 70%; 
   }
 
-  .hero__img-container.block1 {
+  .hero__img-container.hero-img-right {
     width: 100%;
-    margin-left: 10%;
+    margin-left: 15%;
   }
 }
 

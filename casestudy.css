@@ -1,0 +1,81 @@
+/* --- Block 1 --- */
+
+.hero_body.text-on-left {
+  margin: 5% 0 0 15%;
+}
+
+.hero_body.text-on-left h3 {
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.hero_body.text-on-left h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
+.hero__img-container.hero-img-right {
+  margin-left: 0 !important;
+}
+
+@media(min-width: 992px) {
+  .hero_body.text-on-left {
+    margin: 20% 0 0 15%;
+  }
+}
+
+/* -- Block 2 --- */
+.block__title.overlay-blue-border.single-line.case-study {
+  margin-top: -10%;
+}
+
+.light-blue-block {
+  background-color: var(--tertiary);
+}
+
+.med-deep-blue-block {
+  background-color: #77ADFF;
+}
+
+.deep-blue-block {
+  background-color: var(--primary);
+}
+
+.case-study_text {
+  padding: 15% 10% 15% 10%;
+  text-align: center;
+}
+
+.case-study_text h3 {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.case-study_text svg {
+  margin-bottom: 1rem;
+}
+
+.paragraph_text {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+}
+
+.case-study_outcomes {
+  padding: 15% 10% 8% 10%;
+}
+
+.case-study_single_outcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 10%;
+}
+
+.case-study_single_outcome img {
+  padding-bottom: 7%;
+}
