@@ -1,5 +1,5 @@
 /* --- SERVICES: Block 1 --- */
-.hero__body.services-block1 {
+.hero__body.block1-centered {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,26 +11,27 @@
   width: 100%;
 }
 
-.hero__body.services-block1 h1{
+.hero__body.block1-centered h1{
   font-size: 2.3rem;
+  font-weight: 800;
   padding-bottom: 1rem;
   color: var(--primary);
   text-align: center;
 }
 
-.hero__body.services-block1 h3 {
+.hero__body.block1-centered h3 {
   font-size: 1.2rem;
   font-weight: 600 !important;
   text-align: center;
 }
 
-.hero__body.services-block1 h2 {
+.hero__body.block1-centered h2 {
   font-size: 1.5rem;
   padding: 1rem 0;
   margin: 0 5%; 
 }
 
-.hero__body.services-block1 p {
+.hero__body.block1-centered p {
   font-size: 1.1rem;
   margin: 0 5%;
 }
@@ -41,7 +42,7 @@
 }
 
 @media(min-width: 576px) {
-  .hero__body.services-block1 {
+  .hero__body.block1-centered {
     margin: 0 8%;
   }
 
@@ -51,7 +52,7 @@
 }
 
 @media(min-width: 768px){
-  .hero__body.services-block1 {
+  .hero__body.block1-centered {
     margin: 3% 10%;
   }
 
@@ -59,17 +60,17 @@
     width: 80%;
   }
 
-  .hero__body.services-block1 h1{
+  .hero__body.block1-centered h1{
     font-size: 2.5rem;
   }
   
-  .hero__body.services-block1 h3 {
+  .hero__body.block1-centered h3 {
     font-size: 1.4rem;
   }
 }
 
 @media(min-width: 992px){
-  .hero__body.services-block1 {
+  .hero__body.block1-centered {
     margin: 5% 18%;
   }
 
@@ -77,22 +78,22 @@
     width: 70%;
   }
 
-  .hero__body.services-block1 h1{
+  .hero__body.block1-centered h1{
     font-size: 3rem;
   }
   
-  .hero__body.services-block1 h3 {
+  .hero__body.block1-centered h3 {
     font-size: 1.7rem;
     margin: 0 12%;
   }
 
-  .hero__body.services-block1 h2 {
+  .hero__body.block1-centered h2 {
     font-size: 1.6rem;
     padding: 1.3rem 0;
     margin: 0 7%; 
   }
   
-  .hero__body.services-block1 p {
+  .hero__body.block1-centered p {
     margin: 0 7%;
   }
 
