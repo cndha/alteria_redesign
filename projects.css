@@ -60,7 +60,7 @@
   color: var(--primary);
   border: 3px solid var(--primary);
   border-radius: 7px;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -108,8 +108,8 @@
     grid-template-columns: 1fr 1fr;
     align-items: start;
     padding-bottom: 0;
-    margin-bottom: -5%;
-    z-index: -1;
+    margin-bottom: -2.5%;
+    /* z-index: -1; */
   }
 
   .hero_body.text-on-right.projects img {

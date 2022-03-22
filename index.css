@@ -275,6 +275,7 @@ button:focus {
   border: none;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.557); /* do you need a box-shadow on buttons? */
   outline: none;
+  text-decoration: none;
 }
 
 /* .btn:hover,
@@ -345,7 +346,7 @@ a {
 
 a:hover{
   color: var(--primary);
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 /* block header */
@@ -1605,7 +1606,7 @@ a:hover{
 
 @media (min-width:992px) {
   .row {
-    width: 70% !important;
+    width: 75% !important;
   }
 
   .col-lg-4 {
