@@ -108,8 +108,14 @@
     grid-template-columns: 1fr 1fr;
     align-items: start;
     padding-bottom: 0;
-    margin-bottom: -2.5%;
-    /* z-index: -1; */
+    margin-bottom: -6%;
+    /* position: relative;
+    z-index: 0; */
+  }
+
+  .block-41.py-5.overlap-projects {
+    position: relative;
+    z-index: 1;
   }
 
   .hero_body.text-on-right.projects img {

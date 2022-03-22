@@ -273,7 +273,7 @@ button:focus {
 .btn:hover,
 .btn:focus {
   border: none;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.557); /* do you need a box-shadow on buttons? */
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.557);
   outline: none;
   text-decoration: none;
 }
@@ -346,7 +346,7 @@ a {
 
 a:hover{
   color: var(--primary);
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
 /* block header */
@@ -1501,8 +1501,8 @@ a:hover{
   color: var(--block-text-color);
   padding-top: 17%;
   padding-bottom: 3%;
-  position: relative;
-  z-index: -1;
+  /* position: relative; */
+  /* z-index: -1; */
 }
 
 .testimonial-card-1 {
