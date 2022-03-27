@@ -341,11 +341,11 @@ button:focus {
 }
 
 a {
-  color: #000;
+  color: inherit;
 }
 
-a:hover{
-  color: var(--primary);
+a:hover:not(.btn){
+  color: inherit;
   text-decoration: underline !important;
 }
 
@@ -1175,35 +1175,35 @@ a:hover{
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 0;
 }
 
-.flickity-viewport {
+/* .flickity-viewport {
   width: 100%;
 }
 
 .flickity-slider{
   display: flex;
   align-items: center;
-}
+} */
 
-.clients-carousel {
+/* .clients-carousel {
   margin: 0 8% 0 12%;
-}
+} */
 
-.flickity-page-dots .dot {
+/* .flickity-page-dots .dot {
   width: 15px;
   height: 15px;
   opacity: 1;
   background: #C4C4C4;
   border: none;
-}
+} */
 
-.flickity-page-dots .dot.is-selected {
+/* .flickity-page-dots .dot.is-selected {
   background: #77ADFF;
-}
+} */
 
-.clients-carousel.cell img {
+/* .clients-carousel.cell img {
   width: 50px;
   height: 40px;
   object-fit: contain;
@@ -1211,21 +1211,40 @@ a:hover{
 
 .clients-carousel.cell {
   margin: 0 1.5rem 1.2rem 1.5rem;
+} */
+
+.swiper {
+  margin: 0 10%;
+}
+
+.swiper-wrapper {
+  align-items: center !important;
+}
+
+.swiper-slide {
+  max-width: 60%; 
+  margin: 0 7%;
+}
+
+.swiper-slide img {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
 }
 
 @media (min-width:500px) {
-  .clients-carousel {
+  .swiper-wrapper {
     margin: 0 10% 0 10%; 
   }
 
-  .clients-carousel.cell {
-    height: 55px;
-    margin: 0 4.75rem 3rem 4.75rem;
+  .swiper-slide {
+    /* height: 55px; */
+    margin: 0 4.75rem;
   }
 }
 
 @media(min-width:992px) {
-  .clients-carousel.cell {
+  .swiper-slide {
     max-width: 200px;
   }
 }
