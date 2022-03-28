@@ -107,7 +107,7 @@
 }
 
 .learn-more__link {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: var(--primary);
 }
 
@@ -680,7 +680,7 @@
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.5rem 2rem;
-  box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.639);
+  /* box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.639); */
 }
 
 @media(min-width: 600px) {

@@ -284,10 +284,13 @@ button:focus {
 } */
 
 .btn-primary,
-.btn-primary:hover,
 .btn-primary:focus {
   background: var(--primary);
   color: var(--primary-invert);
+}
+
+.btn-primary:hover {
+  background: #13489d;
 }
 
 .btn-secondary,
@@ -341,12 +344,31 @@ button:focus {
 }
 
 a {
+  position: relative; 
   color: inherit;
 }
 
-a:hover:not(.btn){
+a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--primary);
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+}
+
+a:hover:not(.btn) {
   color: inherit;
-  text-decoration: underline !important;
+  text-decoration: none;
+}
+
+a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
+  transform: scaleX(1)
 }
 
 /* block header */
@@ -1820,6 +1842,8 @@ a:hover:not(.btn){
   background: #2F3540;
   color: #fff;
   font-size: .87rem;
+  position: relative;
+  z-index: 1;
 }
 
 .container.footer {
@@ -1862,7 +1886,7 @@ a:hover:not(.btn){
 .block-41__li-link:focus,
 .block-41__li-link:hover {
   color: inherit;
-  text-decoration: underline
+  text-decoration: none;
 }
 
 @media(min-width:576px) {

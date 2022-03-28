@@ -65,6 +65,11 @@
   font-weight: 700;
 }
 
+.read-more:hover {
+  color: #13489d !important;
+  border: 3px solid #13489d;
+}
+
 .hero_body.text-on-right.projects img {
   padding-bottom: 1rem;
   width: 50%; /* can get rid of this when get real img size */
@@ -113,10 +118,14 @@
     z-index: 0; */
   }
 
-  .block-41.py-5.overlap-projects {
+  .hero_body.text-on-right.projects p{
+    margin-right: 10%; 
+  }
+
+  /* .block-41.py-5.overlap-projects {
     position: relative;
     z-index: 1;
-  }
+  } */
 
   .hero_body.text-on-right.projects img {
     width: 40%;

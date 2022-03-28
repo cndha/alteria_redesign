@@ -29,17 +29,11 @@
 
 @media(min-width: 1100px) {
   .hero_body.text-on-left.contact{
-    margin: 10% 0 0 17%;
+    margin: 8% 0 0 17%;
   }
 
   .hero__img-container.hero-img-right {
     width: 80%;
-  }
-}
-
-@media(min-width: 1200px) {
-  .hero_body.text-on-left.contact p{
-    margin-right: 15%;
   }
 }
 
