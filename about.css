@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.hero__body.block1-centered img {
+  width: 100%;
+  margin: 5% 0;
+}
+
 .hero__body.block1-centered h6 {
   padding-top: 2rem; 
   /* text-decoration: underline; */
@@ -26,13 +31,15 @@
   }
 }
 
+@media(min-width: 992px) {
+  .hero__body.block1-centered img {
+    max-width: 80%;
+  }
+}
+
 @media(min-width: 1200px) {
   .hero__body.block1-centered {
     padding-bottom: 12rem;
-  }
-
-  .hero__body.block1-centered img {
-    max-width: 80%;
   }
 }
 

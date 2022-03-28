@@ -4,7 +4,8 @@
 }
 
 .hero__img-container.hero-img-left.jobs {
-  width: 70%;
+  width: 100%;
+  margin-left: -50%;
 }
 
 .hero_body.text-on-right h5 {
@@ -27,7 +28,7 @@
   }
 
   .hero__img-container.hero-img-left.jobs {
-    width: 60%;
+    /* width: 60%; */
   }
 
   .hero_body.text-on-right h5 {
@@ -41,11 +42,11 @@
   }
 
   .hero__img-container.hero-img-left.jobs {
-    width: 80%;
+    width: 150%;
+    margin-left: -70%;
   }
 
   .hero_body.text-on-right {
-    margin-left: -7%;
     margin-right: 0;
   }
 
@@ -58,13 +59,20 @@
   } */
 }
 
+@media(min-width: 850px) {
+  .hero__img-container.hero-img-left.jobs {
+    margin-bottom: 20%;
+  }
+}
+
 @media(min-width: 992px) {
   .hero__body {
     padding-bottom: 4rem !important;
   }
 
   .hero__img-container.hero-img-left.jobs {
-    width: 70%;
+    width: 120%;
+    margin-left: -55%;
   }
 
   .hero_body.text-on-right h5 {
@@ -82,8 +90,8 @@
   }
 
   .hero_body.text-on-right {
-    margin-left: -7%;
-    margin-right: 5%;
+    margin-left: -5%;
+    margin-right: 3%;
   }
 
   /* .hero_body.text-on-right h1 {
@@ -93,15 +101,17 @@
 
 @media(min-width: 1200px) {
   .hero__body {
-    padding-bottom: 8rem !important;
+    padding-bottom: 5rem !important;
   }
 
   .hero__img-container.hero-img-left.jobs {
-    width: 60%;
+    width: 110%;
+    margin-left: -50%;
   }
 
   .hero_body.text-on-right {
-    margin-right: 8%;
+    margin-left: -9%;
+    margin-right: 10%;
   }
 
   /* .hero_body.text-on-right h1 {

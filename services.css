@@ -522,6 +522,14 @@
 
 /* --- SERVICES: Block 4 --- */
 
+.hero__img-container.two-hero-imgs.services img:nth-child(1) {
+  margin-left: 0;
+}
+
+.hero__img-container.two-hero-imgs.services img:nth-child(2) {
+  margin-left: 3%;
+}
+
 /* --- SERVICES: Block 5 --- */
 .white-block-container{
   margin: 0 3%;
