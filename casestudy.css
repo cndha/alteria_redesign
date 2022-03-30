@@ -188,9 +188,14 @@
 
   .case-study_single_outcome img {
     width: 50px;
-    height: 60px;
+    height: auto;
     padding-bottom: 15%;
   }
+
+  .case-study_outcomes div:nth-child(3) img {
+    padding-top: 0.7rem;
+    padding-bottom: 1.25rem;
+  } 
 
   /* .case-study_text h3 {
     font-size: 1.4rem;

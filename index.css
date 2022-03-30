@@ -1843,8 +1843,6 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   background: #2F3540;
   color: #fff;
   font-size: .87rem;
-  position: relative;
-  z-index: 1;
 }
 
 .container.footer {
