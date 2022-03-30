@@ -1644,19 +1644,28 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 /* Block 4 ends */
 
 /* <<<------ Block 5 Starts ------>>> */
+.hero__body.images {
+  padding-bottom: 0 !important;
+}
+
 .hero__img-container.two-hero-imgs {
   display: flex;
-  margin: 3% 0;
+  margin-top: 3%;
   overflow: hidden;
 }
 
+.hero__img-container.two-hero-imgs img {
+  height: 80%;
+}
+
 .hero__img-container.two-hero-imgs img:nth-child(1) {
-  margin-left: -8%;
-  width: 55.5% !important;
+  margin-left: -2%;
+  /* width: 55.5% !important; */
 }
 
 .hero__img-container.two-hero-imgs img:nth-child(2) {
   margin-left: 3%;
+  width: 48% !important;
 }
 
 /* Block 5 ends */

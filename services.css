@@ -523,11 +523,12 @@
 /* --- SERVICES: Block 4 --- */
 
 .hero__img-container.two-hero-imgs.services img:nth-child(1) {
-  margin-left: 0;
+  margin-left: 1%;
 }
 
 .hero__img-container.two-hero-imgs.services img:nth-child(2) {
   margin-left: 3%;
+  width: 48% !important;
 }
 
 /* --- SERVICES: Block 5 --- */
