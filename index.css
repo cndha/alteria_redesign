@@ -1706,12 +1706,17 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 
 .hero__img-container.two-hero-imgs img:nth-child(1) {
   margin-left: -2%;
-  /* width: 55.5% !important; */
 }
 
 .hero__img-container.two-hero-imgs img:nth-child(2) {
   margin-left: 3%;
-  width: 48% !important;
+  width: 42% !important;
+}
+
+@media(min-width: 750px) {
+  .hero__img-container.two-hero-imgs img:nth-child(2) {
+    width: 48% !important;
+  }  
 }
 
 @media(min-width: 992px) {

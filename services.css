@@ -8,6 +8,7 @@
 }
 
 .services__hero-img {
+  width: 100%;
 }
 
 .hero__body.block1-centered h1{
@@ -85,7 +86,7 @@
 
 @media(min-width: 1200px){
   .hero__body.block1-centered {
-    margin: 5% 22%;
+    margin: 0 22%;
   }
 }
 
@@ -119,7 +120,7 @@
   background: var(--block-background);
   color: var(--block-text-color);
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .dark-block-container {
@@ -196,6 +197,10 @@
 }
 
 @media(min-width: 750px) {
+  .dark-block {
+    padding-bottom: 8%;
+  }
+  
   .dark-block-container {
     margin: 7% 8%;
   }
@@ -521,23 +526,20 @@
 }
 
 /* --- SERVICES: Block 4 --- */
-
 .hero__img-container.two-hero-imgs.services img:nth-child(1) {
   margin-left: 1%;
 }
 
-.hero__img-container.two-hero-imgs.services img:nth-child(2) {
-  margin-left: 3%;
-  width: 48% !important;
-}
-
 /* --- SERVICES: Block 5 --- */
 .white-block-container{
-  margin: 0 3%;
-  padding-bottom: 1rem;
+  margin: 8% 3%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.white-block-container.content{
+  margin-top: 0;
 }
 
 .white-block-container h2{
@@ -561,20 +563,19 @@
 
 @media(min-width: 500px) {
   .white-block-container{
-    margin: 0 4%;
-    padding-bottom: 1.5rem;
+    margin: 8% 4%;
   }
 }
 
 @media(min-width: 600px) {
   .white-block-container{
-    margin: 0 5%;
+    margin: 8% 5%;
   }
 }
 
 @media(min-width: 750px){
   .white-block-container{
-    margin: 0 7%;
+    margin: 0 7% 5% 7%;
   }
 
   .white-block-container.content {
@@ -626,8 +627,8 @@
 
 @media(min-width: 900px) {
   .white-block-container{
-    margin: 0 10%;
-    padding-bottom: 2rem;
+    margin: 0 10% 3% 10%;
+    padding-bottom: 1rem;
   }
 
   .white-block-container h2{
@@ -637,7 +638,7 @@
 
 @media(min-width: 1104px) {
   .white-block-container{
-    margin: 0 12%;
+    margin: 3% 12%;
   }
 
   .white-block-container h2{
@@ -669,7 +670,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 12% 5%;
+  padding: 18% 5%;
 }
 
 .med-blu-block.container img {
@@ -693,6 +694,10 @@
 }
 
 @media(min-width: 600px) {
+  .med-blu-block.container {
+    padding: 13% 5% 15% 5%;
+  }
+
   .btn-xxlg {
     padding: 0.5rem 2.5rem;
   }
@@ -710,13 +715,13 @@
 
 @media(min-width: 767px){
   .med-blu-block.container {
-    padding: 10% 15%;
+    padding: 10% 8%;
   }
 }
 
 @media(min-width: 992px) {
   .med-blu-block.container {
-    padding: 8% 18%;
+    padding: 8% 18% 10% 18%;
   }
 
   .med-blu-block.container img {

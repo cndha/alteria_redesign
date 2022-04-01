@@ -1,11 +1,12 @@
 /* --- Block 1 --- */
 .hero__body {
-  /* padding-top: 0 !important; */
+  padding-top: 0 !important;
 }
 
 .hero__img-container.hero-img-left {
   margin-left: -4%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 0;
 }
 
 .hero_body.text-on-right {
@@ -31,10 +32,18 @@
   .hero__body {
     display: flex; 
     align-items: center;
+    padding-top: 2rem !important;
   }
 
   .hero_body.text-on-right {
-    margin-left: -3%;
+    margin-left: -1%;
+  }
+}
+
+@media(min-width: 992px) {
+  .hero__body {
+    padding-top: 5rem !important;
+    padding-bottom: 8rem;
   }
 }
 
@@ -58,7 +67,7 @@
 
 .service__block.blue-bckg.what-we-focus-on {
   background: var(--tertiary);
-  padding: 15% 10% 20% 10%;
+  padding: 17% 10% 22% 10%;
 }
 
 @media(min-width: 500px) {
@@ -69,11 +78,11 @@
 
 @media(min-width: 600px) {
   .block__title.overlay-blue-border.single-line.what-we-focus-on{
-    margin: 0 30% -4% 10%;
+    margin: 0 30% -5% 10%;
   }
   
   .service__block.blue-bckg.what-we-focus-on {
-    padding: 12% 10% 20% 10%;
+    padding: 12% 10% 22% 10%;
   }
 
   .service__block.text-container {
@@ -83,13 +92,13 @@
 
 @media(min-width: 650px) {
   .block__title.overlay-blue-border.single-line.what-we-focus-on{
-    margin: 0 35% -4% 10%;
+    margin: 0 35% -5% 10%;
   }
 }
 
 @media(min-width: 750px) {
   .block__title.overlay-blue-border.single-line.what-we-focus-on{
-    margin: 0 40% -4% 12%;
+    margin: 0 40% -5% 12%;
   }
 
   .service__block.blue-bckg.what-we-focus-on {
@@ -103,7 +112,11 @@
 
 @media(min-width: 850px) {
   .block__title.overlay-blue-border.single-line.what-we-focus-on{
-    margin: 0 45% -3.5% 12%;
+    margin: 0 45% -4% 12%;
+  }
+
+  .service__block.blue-bckg.what-we-focus-on {
+    padding: 12% 10% 22% 10%;
   }
 
   .service__block.text-container {
@@ -131,7 +144,7 @@
   }
 
   .service__block.blue-bckg.what-we-focus-on {
-    padding: 8% 10% 20% 10%;
+    padding: 10% 10% 23% 10%;
   }
 
   .service__block.text-container {
@@ -159,7 +172,7 @@
 
 .service__block.blue-bckg.our-approach {
   background: var(--quaternary);
-  padding: 15% 10% 10% 10%;
+  padding: 17% 10% 10% 10%; /* this will change according to the plant*/
 }
 
 .service__block.read-more {
@@ -182,11 +195,11 @@
 
 @media(min-width: 600px) {
   .block__title.overlay-blue-border.single-line.our-approach{
-    margin: -12% 30% -4% 10%;
+    margin: -12% 30% -5% 10%;
   }
   
   .service__block.blue-bckg.our-approach {
-    padding: 12% 10% 5% 10%;
+    padding: 12% 10% 8% 10%;
   }
 
   .service__block.read-more {
@@ -203,17 +216,17 @@
 
 @media(min-width: 650px) {
   .block__title.overlay-blue-border.single-line.our-approach{
-    margin: -12% 35% -4% 10%;
+    margin: -12% 35% -5% 10%;
   }
 }
 
 @media(min-width: 750px) {
   .block__title.overlay-blue-border.single-line.our-approach{
-    margin: -12% 40% -4% 12%;
+    margin: -12% 40% -5% 12%;
   }
 
   .service__block.blue-bckg.our-approach {
-    padding: 10% 10% 5% 10%;
+    padding: 10% 10% 7% 10%;
   }
 
   .service__block.read-more {
@@ -227,7 +240,11 @@
 
 @media(min-width: 850px) {
   .block__title.overlay-blue-border.single-line.our-approach{
-    margin: -15% 45% -3.5% 12%;
+    margin: -15% 45% -4% 12%;
+  }
+
+  .service__block.blue-bckg.our-approach {
+    padding: 12% 10% 7% 10%;
   }
 }
 
@@ -258,7 +275,7 @@
   }
 
   .service__block.blue-bckg.our-approach {
-    padding: 8% 10% 5% 10%;
+    padding: 10% 10% 7% 10%;
   }
 
   .service__block.read-more {
