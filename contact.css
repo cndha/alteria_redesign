@@ -1,4 +1,8 @@
 /* --- Block 1 --- */
+.hero__body {
+  padding-top: 2rem !important;
+}
+
 .hero_body.text-on-left.contact{
   margin: 10% 15% 0 15%;
 }
@@ -40,7 +44,7 @@
 /* --- Block 2 --- */ 
 .contact-form__container {
   margin: 0 10%;
-  padding-bottom: 20%;
+  padding-bottom: 25%;
 }
 
 #contact-form {
@@ -106,7 +110,7 @@ input[type=text], textarea {
 @media(min-width: 992px) {
   .contact-form__container {
     margin: 0 25%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     width: 55%;
   }
 
@@ -123,10 +127,10 @@ input[type=text], textarea {
   }
 }
 
-@media(min-width: 992px) {
+@media(min-width: 1200px) {
   .contact-form__container {
     margin: 0 27%;
-    padding-bottom: 8%;
+    padding-bottom: 13%;
     width: 45%;
   }
 

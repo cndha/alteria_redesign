@@ -1,4 +1,6 @@
 /* --- Block 1 -- */
+
+
 .hero__img-container.hero-img-left.projects {
   margin-left: -17%;
 }
@@ -28,6 +30,10 @@
 }
 
 @media(min-width: 992px) {
+  .hero__body {
+    padding-top: 3rem !important;
+  }
+
   .hero__img-container.hero-img-left.projects {
     width: 100%;
   }

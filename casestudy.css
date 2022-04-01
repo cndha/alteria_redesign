@@ -54,7 +54,8 @@
 
 @media(min-width: 992px) {
   .hero__body {
-    margin-bottom: 6%;
+    padding-top: 2rem !important;
+    margin-bottom: 9rem;
   }
 
   /* .hero_body.text-on-left h3 {
@@ -72,26 +73,26 @@
 }
 
 .white-block__withoverlay {
-  padding: 15% 10% 20% 10%;
+  padding: 20% 10%;
 }
 
 .white-block{
-  padding: 15% 10% 10% 10%;
+  padding: 15% 10%; 
 }
 
 .light-blue-block {
   background-color: var(--tertiary);
-  padding: 15% 10% 20% 10%;
+  padding: 20% 10%;
 }
 
 .med-deep-blue-block {
   background-color: #77ADFF;
-  padding: 15% 10% 20% 10%;
+  padding: 20% 10%;
 }
 
 .deep-blue-block {
   background-color: var(--primary);
-  padding: 10% 0 8% 0;
+  padding: 12% 0 8% 0;
 }
 
 .case-study_text {
@@ -159,13 +160,13 @@
 
 @media(min-width: 665px) {
     .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
-    padding: 13% 12% 15% 12%;
+    padding: 15% 12%;
   }
 }
 
 @media(min-width: 750px) {
   .block__title.overlay-blue-border.single-line.case-study {
-    margin: -5% 21% -4% 21%;
+    margin: -6% 21% -4% 21%;
   }
 
   .block__title.overlay-blue-border.single-line.case-study-fussy {
@@ -175,7 +176,7 @@
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 13% 12%;
   }
-
+  
   .case-study_outcomes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -208,11 +209,11 @@
 
 @media(min-width: 768px) {
   .block__title.overlay-blue-border.single-line.case-study {
-    margin: -5% 27% -4% 27%;
+    margin: -7% 27% -4% 27%;
   }
 
   .block__title.overlay-blue-border.single-line.case-study-fussy {
-    margin: -4% 27% -4% 27%;
+    margin: -4% 27% -5% 27%;
   }
 
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
@@ -222,13 +223,13 @@
 
 @media(min-width: 820px) {
   .block__title.overlay-blue-border.single-line.case-study {
-    margin: -5% 27% -4% 27%;
+    margin: -7% 27% -4% 27%;
   }
 }
 
 @media(min-width: 900px) {
   .block__title.overlay-blue-border.single-line.case-study {
-    margin: -4% 27% -4% 27%;
+    margin: -5% 27% -4% 27%;
   }
 
   .block__title.overlay-blue-border.single-line.case-study-fussy {
@@ -280,6 +281,6 @@
   }
 
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
-    padding: 8% 25%;
+    padding: 10% 25%;
   }
 }

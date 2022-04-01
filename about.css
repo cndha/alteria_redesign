@@ -1,18 +1,25 @@
 /* --- Block 1 --- */
 .hero__body.block1-centered {
   padding-top: 2rem !important; 
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
   text-align: center;
 }
 
 .hero__body.block1-centered img {
   width: 100%;
-  margin: 5% 0;
+  margin: 10% 0;
 }
 
 .hero__body.block1-centered h6 {
   padding-top: 2rem; 
   /* text-decoration: underline; */
+}
+
+@media(min-width: 500px) {
+  .hero__body.block1-centered {
+    padding-top: 3rem !important; 
+    padding-bottom: 9rem;
+  }
 }
 
 @media(min-width: 750px) {
@@ -39,7 +46,8 @@
 
 @media(min-width: 1200px) {
   .hero__body.block1-centered {
-    padding-bottom: 12rem;
+    padding-bottom: 20rem;
+    padding-top: 6rem !important;
   }
 }
 
@@ -49,7 +57,7 @@
 }
 
 .blue-block__about {
-  padding: 10% 8%;
+  padding: 13% 8%;
 }
 
 .blue-block__about h5 {
@@ -64,7 +72,7 @@
 
 .blue-block__about.first {
   background-color: #9DC0F6;
-  padding-top: 18%;
+  padding-top: 20%;
 }
 
 .blue-block__about.second {
@@ -82,15 +90,7 @@
   }
 
   .blue-block__about {
-    padding: 10% 9%;
-  }
-
-  .blue-block__about.first {
-    padding-top: 15%;
-  }
-
-  .blue-block__about.third {
-    padding-bottom: 20%;
+    padding: 13% 9%;
   }
 }
 
@@ -100,7 +100,11 @@
   }
 
   .blue-block__about {
-    padding: 7% 11%;
+    padding: 13% 11%;
+  }
+
+  .blue-block__about.third {
+    padding-bottom: 24%;
   }
 }
 
@@ -116,11 +120,11 @@
   }
 
   .blue-block__about {
-    padding: 7% 13%;
+    padding: 12% 13%;
   }
 
   .blue-block__about.first {
-    padding-top: 10%;
+    padding-top: 15%;
   }
 }
 
@@ -130,7 +134,7 @@
   }
 
   .blue-block__about {
-    padding: 7% 15.5%;
+    padding: 11% 15.5%;
   }
 }
 
@@ -140,11 +144,7 @@
   }
 
   .blue-block__about {
-    padding: 7% 19.5%;
-  }
-
-  .blue-block__about.third {
-    padding-bottom: 22%;
+    padding: 10% 19.5%;
   }
 }
 
@@ -154,11 +154,11 @@
   }
 
   .blue-block__about {
-    padding: 5% 22.5%;
+    padding: 7% 22.5%;
   }
 
   .blue-block__about.first {
-    padding-top: 8%;
+    padding-top: 9%;
   }
 }
 
@@ -287,7 +287,7 @@
 
 /* --- Block 4 --- */
 .white-block__about.content{
-  padding: 20% 3% 10% 7%;
+  padding: 20% 7%;
   display: flex;
 }
 
@@ -361,7 +361,7 @@
 
 @media(min-width: 1200px) {
   .white-block__about.content{
-    padding: 8% 22.5%;
+    padding: 10% 22.5%;
   }
 }
 
