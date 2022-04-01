@@ -176,6 +176,8 @@
 .team-member img {
   width: 40%;
   padding-bottom: 1rem;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .team-member-info {
