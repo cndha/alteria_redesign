@@ -119,7 +119,7 @@
   --block-text-color: #fff;
   background: var(--block-background);
   color: var(--block-text-color);
-  padding-top: 5%;
+  padding-top: 8%;
   padding-bottom: 10%;
 }
 
@@ -196,11 +196,7 @@
 
 }
 
-@media(min-width: 750px) {
-  .dark-block {
-    padding-bottom: 8%;
-  }
-  
+@media(min-width: 750px) {  
   .dark-block-container {
     margin: 7% 8%;
   }
