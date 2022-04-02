@@ -699,24 +699,14 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   left: 0;
   right: 0;
   margin: auto;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
   padding: 1rem !important;
   height: 60px;
-  transition: .2s height;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown
 }
 
 @media(min-width:992px) {
   .hero-nav--is-sticky {
     height: 80px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 1rem .5rem !important
+    padding: 1rem 3rem !important
   }
 }
 
@@ -725,35 +715,10 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 }
 
 .hero-nav--is-sticky .btn {
-  background: var(--gradient-primary);
-  color: var(--primary-invert)
+  background: var(--primary);
+  color: var(--primary-invert);
 }
 
-@-webkit-keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
-  }
-}
-
-@keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
-  }
-}
 
 .ft-menu__slider .hero-nav__item {
   font-size: 1.1rem;
