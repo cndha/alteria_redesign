@@ -70,6 +70,10 @@
   margin-left: -3%;
 }
 
+.hero_body.text-on-right.projects.three {
+  margin: -5% 10% 0 10%;
+}
+
 .hero_body.text-on-right.projects.three img {
   width: 80%; 
   margin-left: -13%;
