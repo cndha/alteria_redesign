@@ -1,5 +1,7 @@
 /* --- Block 1 -- */
-
+.hero__body {
+  padding-bottom: 3rem !important;
+}
 
 .hero__img-container.hero-img-left.projects {
   margin-left: -17%;

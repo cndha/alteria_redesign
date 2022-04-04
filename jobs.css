@@ -1,5 +1,6 @@
 /* --- Block 1 --- */
 .hero__body {
+  padding-top: 0 !important;
   padding-bottom: 7rem !important;
 }
 
@@ -13,14 +14,19 @@
   font-weight: 400;
 }
 
+.hero_body.text-on-right.jobs {
+  margin: 0 5% 0 8%;
+}
+
 @media(min-width: 500px) {
   .hero__body {
     padding-bottom: 8rem !important;
   }
 
-  .hero_body.text-on-right h5 {
-    margin-right: 5%;
+  .hero_body.text-on-right.jobs {
+    margin: 0 10%;
   }
+
 }
 
 @media(min-width: 600px) {
@@ -28,13 +34,14 @@
     padding-bottom: 9rem !important;
   }
 
-  .hero_body.text-on-right h5 {
+  .hero_body.text-on-right.jobs h5 {
     margin-right: 8%;
   }
 }
 
 @media(min-width: 750px) {
   .hero__body {
+    padding-top: 2rem !important;
     padding-bottom: 2rem !important;
   }
 
@@ -43,12 +50,8 @@
     margin-left: -60%;
   }
 
-  .hero_body.text-on-right {
-    margin-right: 0;
-  }
-
-  .hero_body.text-on-right h5 {
-    margin-right: 10%;
+  .hero_body.text-on-right.jobs {
+    margin: 0 15% 0 5%;
   }
 }
 
@@ -64,19 +67,14 @@
     margin-left: -40%;
   }
 
-  .hero_body.text-on-right h5 {
-    margin-right: 15%;
+  .hero_body.text-on-right.jobs {
+    margin: 0 7% 0 -4%;
   }
 }
 
-@media(min-width: 1090px) {
-  .hero_body.text-on-right h5 {
-    margin-right: 22%;
-  }
-
-  .hero_body.text-on-right {
-    margin-left: -5%;
-    margin-right: 3%;
+@media(min-width: 1118px) {
+  .hero_body.text-on-right.jobs h5 {
+    margin-right: 10%;
   }
 }
 
@@ -90,12 +88,16 @@
     /* margin-left: -50%; */
   }
 
-  .hero_body.text-on-right {
-    margin-left: -9%;
-    margin-right: 10%;
+  .hero_body.text-on-right.jobs {
+    margin: 0 15% 0 -8%;
   }
 }
 
+@media(min-width: 1650px) {
+  .hero_body.text-on-right.jobs {
+    margin: 0 22% 0 -8%;
+  }
+}
 
 /* --- Block 3 --- */
 .title-light {

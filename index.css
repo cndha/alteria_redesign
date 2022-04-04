@@ -156,6 +156,7 @@ h4 {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 1px;
+  margin-bottom: 0 !important;
 }
 @media(min-width: 500px) {
   h4 {
@@ -1278,13 +1279,13 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   background-image: url('images/Teammates 9.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   display: flex;
   flex-direction: row-reverse;
 }
 
 .hero_body_block3-right {
-  padding-top: 26rem;
+  padding-top: 25rem;
   width: 90%;
 }
 
@@ -1729,24 +1730,42 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 
 .blue-block.block6.first {
   background-color: rgba(119, 173, 255, 0.66);
-  padding: 3rem 0 2rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .blue-block.block6.second {
   background-color: rgba(119, 173, 255, 0.82);
-  padding: 3rem 0;
+  padding: 1.5rem 0 3rem 0;
 }
 
 .blue-block.block6.third {
   background-color: #77ADFF;
-  padding: 4rem 0;
+  padding: 1.5rem 0 3rem 0;
 }
 
-.big-num-text-container{
+.big-num-text-container__mobile {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  margin: 0 2%;
+}
+
+.block6__mobile-large-num-title {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  margin: 0 5%;
+}
+
+.block6__mobile-large-num-title h1:nth-child(2) {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.block6__mobile-large-num-p {
+  margin: -8% 7% 0 8%;
+}
+
+.big-num-text-container__desktop{
+  display: none;
 }
 
 .extremely-large-num {
@@ -1765,15 +1784,29 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   padding-bottom: 0.5rem;
 }
 
+@media(min-width: 500px) {
+  .big-num-text-container__mobile {
+    margin: 0;
+  }
+
+  .block6__mobile-large-num-title {
+    margin: 0 10%;
+  }
+
+  .block6__mobile-large-num-p {
+    margin: -5% 10% 0 12%;
+  }
+}
+
 
 @media(min-width: 550px) {
   .block__title.overlay-blue-border.single-line {
     margin: 0 15% -6% 15%;
   }
 
-  .big-num-text-container{
+  /* .big-num-text-container__desktop{
     margin: 1% 5% 0 5%;
-  }
+  } */
 
   .text-beside-large-num{
     margin: 0 3% 0 5%;
@@ -1794,13 +1827,23 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
     margin: 0 18% -5% 18%;
   }
 
-  .big-num-text-container{
-    margin: 3% 10% 0 10%;
+  .big-num-text-container__mobile {
+    margin: 0 5%;
   }
+
+  /* .big-num-text-container__desktop{
+    margin: 3% 10% 0 10%;
+  } */
 
   .extremely-large-num {
     font-size: 190px;
   }  
+}
+
+@media(min-width: 700px) {
+  .big-num-text-container__mobile {
+    margin: 0 7%;
+  }
 }
 
 @media(min-width: 750px) {
@@ -1812,7 +1855,26 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
     padding: 0.3rem 0.8rem;
   }
 
-  .big-num-text-container{
+  .blue-block.block6.first {
+    padding: 4rem 0 2rem 0;
+  }
+  
+  .blue-block.block6.second {
+    padding: 4rem 0 3rem 0;
+  }
+  
+  .blue-block.block6.third {
+    padding: 4rem 0;
+  }
+  
+  .big-num-text-container__mobile {
+    display: none;
+  }
+
+  .big-num-text-container__desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0% 12%;
   }
 
@@ -1838,7 +1900,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
     padding: 2rem 0 0.5rem 0;
   }
 
-  .big-num-text-container{
+  .big-num-text-container__desktop{
     margin: 0 15%;
   }
 
@@ -1860,7 +1922,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
     padding: 3rem 0 0.5rem 0;
   }
 
-  .big-num-text-container{
+  .big-num-text-container__desktop{
     margin: 0% 22%;
     max-width: 60%;
   }
