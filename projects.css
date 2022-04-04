@@ -73,6 +73,10 @@
   margin-left: -13%;
 }
 
+.hero_body.text-on-right.projects.three h4 {
+  margin-right: 5%;
+}
+
 .hero_body.text-on-right.projects p{
   margin-right: 5%; 
   padding-top: 0.5rem;
@@ -148,8 +152,8 @@
 
   .hero_body.text-on-right.projects {
     padding-right: 0;
+    margin-right: 5% !important;
   }
-
 }
 
 @media(min-width: 850px) {

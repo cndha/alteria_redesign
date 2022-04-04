@@ -62,7 +62,7 @@
 }
 
 .block__title.overlay-blue-border.single-line.what-we-focus-on h4 {
-  padding: 0.3rem;
+  padding: 0.3rem 0.3rem 0 0.3rem;
 }
 
 .service__block.blue-bckg.what-we-focus-on {
@@ -167,7 +167,7 @@
 }
 
 .block__title.overlay-blue-border.single-line.our-approach h4 {
-  padding: 0.3rem;
+  padding: 0.3rem 0.3rem 0 0.3rem;
 }
 
 .service__block.blue-bckg.our-approach {
@@ -183,8 +183,7 @@
 
 .service__block.read-more img {
   width: 30%;
-  margin-top: -10%;
-  margin-bottom: -25%;
+  margin: -10% -8% -25% 0;
 }
 
 @media(min-width: 500px) {
@@ -208,10 +207,8 @@
 
   .service__block.read-more img {
     width: 25%;
-    margin-top: -20%;
-    margin-bottom: -15%;
+    margin: -20% -8% -15% 0;
   }
-  
 }
 
 @media(min-width: 650px) {
@@ -233,9 +230,6 @@
     margin: 18% 0 0 4%;
   }
 
-  .service__block.read-more img {
-    margin-right: -7%;
-  }
 }
 
 @media(min-width: 850px) {
@@ -263,9 +257,7 @@
 
   .service__block.read-more img {
     width: 20%;
-    margin-top: -20%;
-    margin-bottom: -15%;
-    margin-right: -5%;
+    margin: -20% -5% -15% 0;
   }
 }
 
@@ -280,9 +272,5 @@
 
   .service__block.read-more {
     margin: 12% 0 0 13%;
-  }
-
-  .service__block.read-more img {
-    margin-bottom: -11%;
   }
 }
