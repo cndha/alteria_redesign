@@ -117,6 +117,10 @@
   .mt-5 {
     margin-top: 0rem !important;
   }
+
+  .hero__img-container.hero-img-left.project-company {
+    margin-top: -3% !important;
+  }
   
   .hero__body.projects{
     display: grid; 
@@ -137,23 +141,22 @@
     width: 40%;
   } */
 
-  .hero_body.text-on-right.projects.three img {
-    width: 65%;
-    margin-left: -11%;
-  }
-
   .read-more-btn {
     padding-top: 0;
   }
 
   .hero_body.text-on-right.projects.one{
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .hero_body.text-on-right.projects.two{
-    margin-top: 12%;
+    margin-top: 3%;
   }
   .hero_body.text-on-right.projects.three{
-    margin-top: 5%;
+    margin: -5% 10% 0 0;
+  }
+  .hero_body.text-on-right.projects.three img {
+    width: 65%;
+    margin-left: -11%;
   }
 
   .hero_body.text-on-right.projects {
@@ -200,17 +203,6 @@
   .read-more-btn{
     padding-top: 3rem;
   }
-
-  .hero_body.text-on-right.projects.one{
-    margin-top: 13%;
-  }
-  .hero_body.text-on-right.projects.two{
-    margin-top: 14%;
-  }
-  .hero_body.text-on-right.projects.three{
-    margin-top: 9%;
-  }
-
 }
 
 @media(min-width: 1200px) {
