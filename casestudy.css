@@ -1,4 +1,8 @@
 /* --- Block 1 --- */
+.hero__body {
+  padding-bottom: 6rem !important;
+}
+
 .hero_body.text-on-left {
   margin: 10% 0 0 15%;
 }
@@ -34,7 +38,7 @@
 
 @media(min-width: 750px) {
   .hero__body {
-    margin-bottom: 15%;
+    padding-bottom: 7rem !important;
   }
 
   .hero_body.text-on-left {
@@ -46,16 +50,9 @@
   } */
 }
 
-@media(min-width: 850px) {
-  .hero__body {
-    margin-bottom: 10%;
-  }
-}
-
 @media(min-width: 992px) {
   .hero__body {
     padding-top: 2rem !important;
-    margin-bottom: 9rem;
   }
 
   /* .hero_body.text-on-left h3 {
