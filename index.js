@@ -10,19 +10,19 @@ $(document).ready(function() {
   })
 
 
-  $('form').on('submit', function(e) {
-    e.preventDefault();
+  // $('form').on('submit', function(e) {
+  //   e.preventDefault();
 
-    $.ajax({
-      type: 'post',
-      url: 'contact-form.php',
-      data: $('form').serialize(),
-      success: function() {
-        alert("Form was submitted")
-      }
-    });
-  });
+  //   $.ajax({
+  //     type: 'post',
+  //     url: 'contact-form.php',
+  //     data: $('form').serialize(),
+  //     success: function() {
+  //       alert("Form was submitted")
+  //     }
+  //   });
+  // });
 
-  $("#contact-form").ajaxSubmit({url: 'contact-form.php', type: 'post'})
+  // $("#contact-form").ajaxSubmit({url: 'contact-form.php', type: 'post'})
 
 });
