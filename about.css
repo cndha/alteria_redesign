@@ -191,6 +191,8 @@
 
 .team-member-info p {
   padding-top: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .plant-image {
@@ -199,8 +201,11 @@
 }
 
 .plant-image img {
-  width: 55%;
-  margin: -35% -20% -20% 0;
+  /* width: 55%;
+  margin: -35% -20% -20% 0; */
+  width: 50%;
+  margin: -22% -11% -14% 0;
+  z-index: 0;
 }
 
 @media(min-width: 500px) {
@@ -219,8 +224,9 @@
   }
 
   .plant-image img {
-    width: 50%;
-    margin: -30% -20% -20% 0;
+    /* width: 50%;
+    margin: -30% -20% -20% 0; */
+    margin: -22% -14% -14% 0;
   }
 }
 
@@ -242,7 +248,8 @@
 
   .plant-image img {
     width: 45%;
-    margin: -25% -22% -20% 0;
+    /* margin: -25% -22% -20% 0; */
+    margin: -22% -17% -14% 0;
   }
 }
 
@@ -253,7 +260,8 @@
 
   .plant-image img {
     width: 40%;
-    margin: -20% -25% -20% 0;
+    /* margin: -20% -25% -20% 0; */
+    margin: -20% -20% -14% 0;
   }
 }
 
@@ -267,7 +275,8 @@
   }
 
   .plant-image img {
-    margin: -20% -30% -20% 0;
+    /* margin: -20% -30% -20% 0; */
+    margin: -20% -32% -15% 0;
   }
 }
 
@@ -277,7 +286,8 @@
   }
 
   .plant-image img {
-    margin: -20% -35% -20% 0;
+    /* margin: -20% -35% -20% 0; */
+    margin: -20% -39% -17% 0;
   }
 }
 
