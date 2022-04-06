@@ -9,6 +9,9 @@ $(document).ready(function() {
     normalizeSlideIndex: true,
   })
 
+  $("#submit-form").click(function(){
+    $("#contact-form").target.reset();
+  })
   
   // Fixed nav bar + mobile nav slide out
   var showDropdown = function(e) {
