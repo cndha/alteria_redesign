@@ -199,8 +199,8 @@
 }
 
 .plant-image img {
-  width: 30%;
-  margin: -25% -5% -20% 0;
+  width: 55%;
+  margin: -35% -20% -20% 0;
 }
 
 @media(min-width: 500px) {
@@ -219,13 +219,8 @@
   }
 
   .plant-image img {
-    width: 28%;
-  }
-}
-
-@media(min-width: 670px) {
-  .plant-image img {
-    width: 26%;
+    width: 50%;
+    margin: -30% -20% -20% 0;
   }
 }
 
@@ -246,8 +241,8 @@
   }
 
   .plant-image img {
-    width: 24%;
-    margin: -25% -12% -20% 0;
+    width: 45%;
+    margin: -25% -22% -20% 0;
   }
 }
 
@@ -257,8 +252,8 @@
   }
 
   .plant-image img {
-    width: 22%;
-    margin: -25% -15% -20% 0;
+    width: 40%;
+    margin: -20% -25% -20% 0;
   }
 }
 
@@ -272,8 +267,7 @@
   }
 
   .plant-image img {
-    width: 20%;
-    margin: -25% -20% -20% 0;
+    margin: -20% -30% -20% 0;
   }
 }
 
@@ -283,7 +277,7 @@
   }
 
   .plant-image img {
-    margin: -25% -25% -20% 0;
+    margin: -20% -35% -20% 0;
   }
 }
 
