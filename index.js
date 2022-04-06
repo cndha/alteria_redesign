@@ -8,11 +8,15 @@ $(document).ready(function() {
     longSwipes: true,
     normalizeSlideIndex: true,
   })
-
-  $("#submit-form").click(function(){
-    $("#contact-form").target.reset();
-  })
   
+  $.ajax({
+    url: "https://formspree.io/f/xoqrnzzq",
+    method: "post",
+    success: function() {
+      $("#contact-form").reset();
+    }
+  })
+
   // Fixed nav bar + mobile nav slide out
   var showDropdown = function(e) {
     e.currentTarget.classList.add("hero-nav__item--show-dropdown")
