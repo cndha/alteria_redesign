@@ -53,12 +53,16 @@
 }
 
 /* -- Block 2 --- */
-.block__title.overlay-blue-border.single-line.case-study, .block__title.overlay-blue-border.single-line.case-study-fussy {
+.block__title.overlay-blue-border.single-line.case-study {
   margin: -9% 12% -7% 12%;
 }
 
+.block__title.overlay-blue-border.single-line.case-study-fussy {
+  margin: -7% 12% -5% 12%;
+}
+
 .block__title.overlay-blue-border.single-line.case-study.long-title {/*remove if you have Outcomes*/
-  margin: -10% 12% -9% 12%;
+  margin: -12% 12% -9% 12%;
 }
 
 .white-block__withoverlay {
