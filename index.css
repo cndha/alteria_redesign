@@ -23,6 +23,7 @@
 body {
   font-family: "Raleway", "Open Sans", sans-serif;
   color: var(--text-primary);
+  background: white;
 }
 
 .space-between-blocks {
@@ -1285,7 +1286,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 }
 
 .hero_body_block3-right {
-  padding-top: 25rem;
+  padding-top: 26rem;
   width: 90%;
 }
 

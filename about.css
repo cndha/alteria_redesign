@@ -174,8 +174,8 @@
 }
 
 .team-member img {
-  width: 40%;
-  padding-bottom: 1rem;
+  width: 60%;
+  margin-bottom: 1rem;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -219,9 +219,9 @@
     padding: 15% 11% 7% 11%;
   }
 
-  .team-member img {
-    width: 35%;
-  }
+  /* .team-member img {
+    width: 50%;
+  } */
 
   .plant-image img {
     /* width: 50%;
@@ -241,9 +241,9 @@
   }
 
   .team-member img {
-    width: 25%;
+    width: 35%;
     padding-bottom: 0rem;
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
 
   .plant-image img {

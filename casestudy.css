@@ -44,29 +44,21 @@
   .hero_body.text-on-left {
     margin: 0 0 0 15%;
   }
-
-  /* .hero_body.text-on-left h1 {
-    font-size: 3.5rem;
-  } */
 }
 
 @media(min-width: 992px) {
   .hero__body {
     padding-top: 2rem !important;
   }
-
-  /* .hero_body.text-on-left h3 {
-    font-size: 1.7rem;
-  }
-  
-  .hero_body.text-on-left h1 {
-    font-size: 4rem;
-  } */
 }
 
 /* -- Block 2 --- */
 .block__title.overlay-blue-border.single-line.case-study, .block__title.overlay-blue-border.single-line.case-study-fussy {
   margin: -9% 12% -7% 12%;
+}
+
+.block__title.overlay-blue-border.single-line.case-study.long-title {/*remove if you have Outcomes*/
+  margin: -10% 12%;
 }
 
 .white-block__withoverlay {
@@ -92,12 +84,15 @@
   padding: 12% 0 8% 0;
 }
 
+.with-text{/*remove if you have Outcomes*/
+  padding: 25% 10% 15% 10%; 
+}
+
 .case-study_text {
   text-align: center;
 }
 
 .case-study_text h3, .case-study_text h2 {
-  /* font-size: 1.3rem; */
   font-family: 'Open Sans', sans-serif;
   padding-top: 0;
   padding-bottom: 1.5rem;
@@ -130,14 +125,23 @@
     margin: -8% 13% -6% 13%;
   }
 
-  /* .case-study_text h3 {
-    font-size: 1.5rem;
-  } */
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -6% 13% -6% 13%;
+  }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 20% 10% 15% 10%;
+  }
+
 }
 
 @media(min-width: 550px) {
   .block__title.overlay-blue-border.single-line.case-study-fussy {
     margin: -6% 13% -5% 13%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 13% -5% 13%;
   }
 }
 
@@ -150,15 +154,20 @@
     margin: -5% 18% -5% 18%;
   }
 
-  /* .case-study_text h3 {
-    font-size: 1.7rem;
-  } */
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -8% 18% -4.5% 18%;
+  }
 }
 
 @media(min-width: 665px) {
     .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 15% 12%;
   }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 15% 12% 10% 12%;
+  }
+
 }
 
 @media(min-width: 750px) {
@@ -170,9 +179,18 @@
     margin: -4.5% 21% -4% 21%;
   }
 
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 21% -4% 21%;
+  }
+
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 13% 12%;
   }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 13% 12% 10% 12%;
+  }
+
   
   .case-study_outcomes {
     display: grid;
@@ -198,20 +216,32 @@
 
 @media(min-width: 768px) {
   .block__title.overlay-blue-border.single-line.case-study {
-    margin: -7% 27% -4% 27%;
+    margin: -7% 25% -4% 25%;
   }
 
   .block__title.overlay-blue-border.single-line.case-study-fussy {
-    margin: -4% 27% -5% 27%;
+    margin: -4% 25% -5% 25%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 25% -4% 25%;
   }
 
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 12% 14%;
   }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 12% 14% 8% 14%;
+  }
 }
 
-@media(min-width: 820px) {
+@media(min-width: 830px) {
   .block__title.overlay-blue-border.single-line.case-study {
+    margin: -7% 27% -4% 27%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
     margin: -7% 27% -4% 27%;
   }
 }
@@ -225,24 +255,41 @@
     margin: -4% 27% -4% 27%;
   }
 
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 27% -3.5% 27%;
+  }
+
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 12% 17%;
+  }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 12% 17% 8% 17%;
   }
 }
 
 @media(min-width: 992px) {
   .block__title.overlay-blue-border.single-line.case-study {
-    margin: -4% 32% -4% 32%;
+    margin: -4% 29% -4% 29%;
   }
 
   .block__title.overlay-blue-border.single-line.case-study-fussy {
-    margin: -4% 32% -3% 32%;
+    margin: -4% 29% -3% 29%;
   }
+
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 29% -3.5% 29%;
+  }
+
 }
 
 @media(min-width: 1000px) {
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 12% 20%;
+  }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 12% 20% 8% 20%;
   }
 }
 
@@ -255,8 +302,17 @@
     margin: -3.5% 32% -4% 32%;
   }
 
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 32% -3% 32%;
+  }
+
+
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 10% 23%;
+  }
+
+  .with-text{/*remove if you have Outcomes*/
+    padding: 10% 23% 7% 23%;
   }
 }
 
@@ -271,5 +327,18 @@
 
   .white-block, .white-block__withoverlay, .light-blue-block, .med-deep-blue-block, .deep-blue-block {
     padding: 10% 25%;
+  }
+  .with-text{/*remove if you have Outcomes*/
+    padding: 10% 25% 7% 25%;
+  }
+}
+
+@media(min-width: 1400px) {
+  .block__title.overlay-blue-border.single-line.case-study {
+    margin: -3.5% 32% -2% 32%;
+  }
+
+  .block__title.overlay-blue-border.single-line.case-study.long-title {
+    margin: -7% 32% -2.2% 32%;
   }
 }
