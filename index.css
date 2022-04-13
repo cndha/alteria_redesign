@@ -1754,7 +1754,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-bottom: 5%;
 }
 
