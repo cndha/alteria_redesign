@@ -1754,8 +1754,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 8%;
-  margin-bottom: 5%;
+  margin: 0 8% 5% 8%;
 }
 
 .block6__mobile-large-num-title h1:nth-child(2) {
@@ -1764,7 +1763,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 }
 
 .block6__mobile-large-num-p {
-  margin: -8% 7% 0 10%;
+  margin: -8% 10% 0 10%;
 }
 
 .big-num-text-container__desktop{
