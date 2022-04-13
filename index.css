@@ -1754,7 +1754,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 8% 5% 8%;
+  margin: 0 10% 5% 10%;
 }
 
 .block6__mobile-large-num-title h1:nth-child(2) {
