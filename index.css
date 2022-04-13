@@ -1731,17 +1731,17 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
 
 .blue-block.block6.first {
   background-color: rgba(119, 173, 255, 0.66);
-  padding: 2rem 0 3rem 0;
+  padding: 3rem 0 3rem 0;
 }
 
 .blue-block.block6.second {
   background-color: rgba(119, 173, 255, 0.82);
-  padding: 1.5rem 0 3rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .blue-block.block6.third {
   background-color: #77ADFF;
-  padding: 1.5rem 0 3rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .big-num-text-container__mobile {
@@ -1754,11 +1754,13 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .block6__mobile-large-num-title h1:nth-child(2) {
-  margin-top: 5%;
-  margin-left: 3%;
+  margin-top: 3%;
+  margin-left: 5%;
 }
 
 .block6__mobile-large-num-p {
@@ -1773,7 +1775,7 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 200px;
+  font-size: 120px;
 }
 
 .text-beside-large-num {
@@ -1791,11 +1793,15 @@ a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
   }
 
   .block6__mobile-large-num-title {
-    margin: 0 10%;
+    margin: 0 10% 3% 10%;
   }
 
   .block6__mobile-large-num-p {
     margin: -5% 10% 0 12%;
+  }
+
+  .extremely-large-num {
+    font-size: 140px;
   }
 }
 
