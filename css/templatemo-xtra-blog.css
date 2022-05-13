@@ -72,15 +72,14 @@ hr {
 .tm-site-logo i { color: #0CC; }
 
 .tm-main {
-    margin-left: 400px;
     padding: 80px 100px 25px;
 }
 
 .tm-post { max-width: 470px; }
 
 .tm-row {
-    max-width: 980px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100% !important;
 }
 
 .tm-nav { margin-bottom: 100px; }
@@ -231,7 +230,7 @@ ul {
 .tm-new-badge {
     top: 25px;
     right: -10px;
-    background-color: #0CC;
+    background-color: #427FE0;
     color: white;
     padding: 5px 20px;
 }
@@ -246,7 +245,7 @@ ul {
     color: #999;
 }
 
-.tm-post-link:hover .tm-post-title { color: #0CC; }
+.tm-post-link:hover .tm-post-title { color: #427FE0; }
 
 .tm-btn {
     display: inline-block;
@@ -256,7 +255,7 @@ ul {
 }
 
 .tm-btn-primary {    
-    background-color: #0CC;
+    background-color: #427FE0;
     color: white;  
     padding: 8px 43px;
     border: none;
@@ -265,7 +264,7 @@ ul {
 .tm-btn-small { padding: 8px 33px; }
 
 .tm-btn-primary:hover {
-    background-color: #09b6b6;
+    background-color: #13489d;
     color: white;
 }
 
@@ -289,7 +288,7 @@ ul {
 
 .tm-paging-item .tm-paging-link:hover,
 .tm-paging-item.active .tm-paging-link {
-    background-color: #0CC;
+    background-color: #427FE0;
     color: white;
 }
 
@@ -319,7 +318,7 @@ ul {
 .tm-copyright { text-align: right; }
 
 /* Single Post page */
-hr.tm-hr-primary { border-top: 5px solid #0CC; }
+hr.tm-hr-primary { border-top: 5px solid #427FE0; }
 
 video {
     width: 100%;
@@ -372,14 +371,14 @@ figcaption { line-height: 1.4; }
 .tm-mt-40 { margin-top: 40px; }
 .tm-mt-100 { margin-top: 100px; }
 .tm-mr-20 { margin-right: 20px; }
-.tm-color-primary, span.tm-color-primary { color: #099; }
+.tm-color-primary, span.tm-color-primary { color: #1756BE; }
 a.tm-color-gray, .tm-color-gray { color: #999; }
 a.tm-color-gray:hover { color: #099; }
 .tm-bg-gray { background-color: #F3F4F5; }
 button:focus { outline: none; }
 a:hover { 
     text-decoration: none; 
-    color: #048c8c;
+    color: #13489d;
 }
 
 a:hover figcaption { color: #056767; }
@@ -428,11 +427,6 @@ a:hover figcaption { color: #056767; }
 
 @media (max-width: 1540px) {
     .tm-header { width: 320px; }
-
-    .tm-main {
-        margin-left: 320px;
-        width: calc(100% - 320px);
-    }
 }
 
 @media (max-width: 1300px) {

@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Xtra Blog</title>
-	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../index.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M9HDVQSQ6P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M9HDVQSQ6P');
+  </script>
+
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+  <!-- font awesome 5 free * don't delete lol for hamgburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/services.css">
+  <link rel="stylesheet" href="../css/services-ab.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/templatemo-xtra-blog.css">
+
+  <title>Alteria Agency</title>
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 <!--
     
 TemplateMo 553 Xtra Blog
@@ -17,58 +51,43 @@ https://templatemo.com/tm-553-xtra-blog
 -->
 </head>
 <body>
-	<header class="tm-header" id="tm-header">
-        <div class="tm-header-wrapper">
-            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="tm-site-header">
-                <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div>            
-                <h1 class="text-center">Xtra Blog</h1>
-            </div>
-            <nav class="tm-nav" id="tm-nav">            
-                <ul>
-                    <li class="tm-nav-item"><a href="index.html" class="tm-nav-link">
-                        <i class="fas fa-home"></i>
-                        Blog Home
-                    </a></li>
-                    <li class="tm-nav-item active"><a href="post.html" class="tm-nav-link">
-                        <i class="fas fa-pen"></i>
-                        Single Post
-                    </a></li>
-                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
-                        <i class="fas fa-users"></i>
-                        About Xtra
-                    </a></li>
-                    <li class="tm-nav-item"><a href="contact.html" class="tm-nav-link">
-                        <i class="far fa-comments"></i>
-                        Contact Us
-                    </a></li>
-                </ul>
+	<header class="hero container-fluid">
+        <div class="hero__content container mx-auto">
+          <!-- I'm putting the nav inside this "fixed-nav-container" to fix some issues happens on scroll -->
+          <div class="fixed-nav-container">
+            <nav class="hero-nav position-relative mx-auto px-0 hero-nav--is-sticky">
+              <ul class="nav container w-100 list-unstyled align-items-center p-0">
+                <li class="hero-nav__item"><a href="../index.html" class="logo-link"><img class="hero-nav__logo" src="../images/screenshot_logo.png" alt="our logo"></a><!-- Don't remove this empty span --><span class="mx-2"></span></li>
+                
+                <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+                  <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+                    <li class="flex-grow-1">
+                      <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
+                        <li class="flex-grow-1">
+                          <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
+                            <li class="hero-nav__item"><a href="./contact.html" target="_blank" class="btn btn-primary">Contact us</a></li>
+                          </ul>
+                        </li>
+                        <li class="hero-nav__item"><a href="./blog.html" class="hero-nav__link">Blog</a></li>
+                        <li class="hero-nav__item"><a href="./about.html" class="hero-nav__link">About</a></li>
+                        <li class="hero-nav__item"><a href="./projects.html" class="hero-nav__link">Projects</a></li>
+                        <li class="hero-nav__item"><a href="./services.html" class="hero-nav__link">Services</a></li>
+                      </ul>
+                    </li>
+                  </ul><button close-nav-menu="" class="ft-menu__close-btn animated"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                      <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"></path>
+                    </svg></button>
+                </li>
+                <li class="hero-nav__item d-lg-none d-flex flex-row-reverse"><button open-nav-menu="" class="text-center px-2"><i class="fas fa-bars"></i></button></li>
+              </ul>
             </nav>
-            <div class="tm-mb-65">
-                <a href="https://facebook.com" class="tm-social-link">
-                    <i class="fab fa-facebook tm-social-icon"></i>
-                </a>
-                <a href="https://twitter.com" class="tm-social-link">
-                    <i class="fab fa-twitter tm-social-icon"></i>
-                </a>
-                <a href="https://instagram.com" class="tm-social-link">
-                    <i class="fab fa-instagram tm-social-icon"></i>
-                </a>
-                <a href="https://linkedin.com" class="tm-social-link">
-                    <i class="fab fa-linkedin tm-social-icon"></i>
-                </a>
-            </div>
-            <p class="tm-mb-80 pr-5 text-white">
-                Xtra Blog is a multi-purpose HTML template from TemplateMo website. Left side is a sticky menu bar. Right side content will scroll up and down.
-            </p>
-        </div>
-    </header>
+          </div>
+      </header>
     <div class="container-fluid">
         <main class="tm-main">
             <!-- Search form -->
-            <div class="row tm-row">
+            <!-- <div class="row tm-row">
                 <div class="col-12">
                     <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
                         <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
@@ -77,15 +96,11 @@ https://templatemo.com/tm-553-xtra-blog
                         </button>                                
                     </form>
                 </div>                
-            </div>            
+            </div>             -->
             <div class="row tm-row">
                 <div class="col-12">
                     <hr class="tm-hr-primary tm-mb-55">
-                    <!-- Video player 1422x800 -->
-                    <video width="954" height="535" controls class="tm-mb-40">
-                        <source src="video/wheat-field.mp4" type="video/mp4">							  
-                        Your browser does not support the video tag.
-                    </video>
+                    <img width="954" height="535" src="../images/img/img-01.jpg" controls class="tm-mb-40">
                 </div>
             </div>
             <div class="row tm-row">
@@ -110,60 +125,6 @@ https://templatemo.com/tm-553-xtra-blog
                                 et vitae dui.
                             </p>
                             <span class="d-block text-right tm-color-primary">Creative . Design . Business</span>
-                        </div>
-                        
-                        <!-- Comments -->
-                        <div>
-                            <h2 class="tm-color-primary tm-post-title">Comments</h2>
-                            <hr class="tm-hr-primary tm-mb-45">
-                            <div class="tm-comment tm-mb-45">
-                                <figure class="tm-comment-figure">
-                                    <img src="img/comment-1.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
-                                    <figcaption class="tm-color-primary text-center">Mark Sonny</figcaption>
-                                </figure>
-                                <div>
-                                    <p>
-                                        Praesent aliquam ex vel lectus ornare tritique. Nunc et eros
-                                        quis enim feugiat tincidunt et vitae dui. Nullam consectetur
-                                        justo ac ex laoreet rhoncus. Nunc id leo pretium, faucibus 
-                                        sapien vel, euismod turpis.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <a href="#" class="tm-color-primary">REPLY</a>
-                                        <span class="tm-color-primary">June 14, 2020</span>
-                                    </div>                                                 
-                                </div>                                
-                            </div>
-                            <div class="tm-comment-reply tm-mb-45">
-                                <hr>
-                                <div class="tm-comment">
-                                    <figure class="tm-comment-figure">
-                                        <img src="img/comment-2.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
-                                        <figcaption class="tm-color-primary text-center">Jewel Soft</figcaption>    
-                                    </figure>
-                                    <p>
-                                        Nunc et eros quis enim feugiat tincidunt et vitae dui.
-                                        Nullam consectetur justo ac ex laoreet rhoncus. Nunc
-                                        id leo pretium, faucibus sapien vel, euismod turpis.
-                                    </p>
-                                </div>                                
-                                <span class="d-block text-right tm-color-primary">June 21, 2020</span>
-                            </div>
-                            <form action="" class="mb-5 tm-comment-form">
-                                <h2 class="tm-color-primary tm-post-title mb-4">Your comment</h2>
-                                <div class="mb-4">
-                                    <input class="form-control" name="name" type="text">
-                                </div>
-                                <div class="mb-4">
-                                    <input class="form-control" name="email" type="text">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="form-control" name="message" rows="6"></textarea>
-                                </div>
-                                <div class="text-right">
-                                    <button class="tm-btn tm-btn-primary tm-btn-small">Submit</button>                        
-                                </div>                                
-                            </form>                          
                         </div>
                     </div>
                 </div>
@@ -202,16 +163,34 @@ https://templatemo.com/tm-553-xtra-blog
                     </div>                    
                 </aside>
             </div>
-            <footer class="row tm-row">
-                <div class="col-md-6 col-12 tm-color-gray">
-                    Design: <a rel="nofollow" target="_parent" href="https://templatemo.com" class="tm-external-link">TemplateMo</a>
-                </div>
-                <div class="col-md-6 col-12 tm-color-gray tm-copyright">
-                    Copyright 2020 Xtra Blog Company Co. Ltd.
-                </div>
-            </footer>
         </main>
     </div>
+            <div class="block-41 py-5">
+                <div class="container footer">
+                  <div class="footer__desktop">
+                    <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                      <a href="../index.html" class="logo-link"><img class="block-41__logo mb-3" src="../images/footer_logo_placeholder.png"></a>
+                      <h6>Alteria Agency</h6>
+                      <p class="block-41__brand-story mb-0">is a software engineering and consulting agency with expertise in scaling web experiences and the technology teams that power them.</p>
+                      <a href="https://www.linkedin.com/company/alteria-agency/" target="_blank" class="linkedin_logo"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" style=" fill:#fff;"><path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path></svg></a>
+                    </div>
+                    <div class="footer__btns">
+                      <div class="col-md-3 col-lg-2 mb-sm-4 mb-lg-0">
+                        <ul class="block-41__links-list list-unstyled p-0">
+                          <li class="block-41__li"><h6><a href="../pages/services.html" class="block-41__li-link">Services</a></h6></li>
+                          <li class="block-41__li"><h6><a href="../pages/projects.html" class="block-41__li-link">Projects</a></h6></li>
+                          <li class="block-41__li"><h6><a href="../pages/about.html" class="block-41__li-link">About</a></h6></li>
+                          <li class="block-41__li"><h6><a href="../pages/blog.html" class="block-41__li-link">Blog</a></h6></li>
+                        </ul>
+                      </div>
+                      <div class="footer__contact-btn">
+                        <a href="../pages/contact.html" target="_blank" class="btn btn-primary">Contact Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
     <script src="js/jquery.min.js"></script>
     <script src="js/templatemo-script.js"></script>
 </body>

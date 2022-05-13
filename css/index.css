@@ -365,12 +365,12 @@ a:before {
   transition: transform 0.3s ease;
 }
 
-a:hover:not(.btn) {
+a:hover:not(.btn, .tm-btn) {
   color: inherit;
   text-decoration: none;
 }
 
-a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more):before {
+a:hover:not(.btn, .linkedin_logo, .logo-link, .read-more, .tm-post-link, .tm-btn):before {
   transform: scaleX(1)
 }
 
