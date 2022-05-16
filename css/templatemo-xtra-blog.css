@@ -70,18 +70,22 @@ hr {
 }
 
 .tm-site-logo i { color: #0CC; }
-
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
 .tm-main {
     padding: 80px 100px 25px;
+    margin: 10%;
+    max-width: 1200px;
 }
 
 .tm-post { max-width: 470px; }
 
 .tm-row {
-    justify-content: space-evenly;
     width: 100% !important;
+    display: flex;
 }
-
 .tm-nav { margin-bottom: 100px; }
 
 .tm-nav-item {
@@ -324,6 +328,10 @@ video {
     width: 100%;
     height: auto;
 }
+.tm-photo {
+    display: flex;
+    justify-content: center;
+}
 
 .tm-comment {
     display: flex;
@@ -352,7 +360,6 @@ figcaption { line-height: 1.4; }
 
 .tm-post-sidebar {
     max-width: 280px;
-    margin-left: auto;
     margin-right: 0;
 }
 
@@ -480,7 +487,6 @@ a:hover figcaption { color: #056767; }
     .tm-header.show .navbar-toggler { left: 320px; }
 
     .tm-main {
-        margin-left: 0;
         padding: 50px 40px;
         width: 100%;
     }
@@ -540,10 +546,9 @@ a:hover figcaption { color: #056767; }
 
     .tm-contact-right { padding-left: 15px; }
 
-    .tm-post-col,
     .tm-aside-col {
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
     }
 
     .tm-post-sidebar {
@@ -554,6 +559,9 @@ a:hover figcaption { color: #056767; }
 
 @media (max-width: 709px) {
     .tm-person-col { width: 100%; }
+    .tm-row {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 826px) {
