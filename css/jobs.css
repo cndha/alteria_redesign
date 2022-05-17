@@ -18,6 +18,34 @@
   margin: 0 3% 0 6%;
 }
 
+.blue-block__jobs {
+  padding: 13% 8%;
+}
+
+.blue-block__jobs h5 {
+  /* font-size: 1.3rem; */
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.blue-block__jobs p {
+  padding-top: 1rem;
+}
+
+.blue-block__jobs.first {
+  background-color: #9DC0F6;
+  padding-top: 10%;
+}
+
+.blue-block__jobs.second {
+  background-color: #8BB7FA;
+}
+
+.blue-block__jobs.third {
+  background-color: #77ADFF;
+  padding-bottom: 22%;
+}
+
 @media(min-width: 500px) {
   .hero__body {
     padding-bottom: 8rem !important;
@@ -25,6 +53,9 @@
 
   .hero_body.text-on-right.jobs {
     margin: 0 10%;
+  }
+  .blue-block__jobs {
+    padding: 13% 9%;
   }
 
 }
@@ -36,6 +67,13 @@
 
   .hero_body.text-on-right.jobs h5 {
     margin-right: 8%;
+  }
+  .blue-block__jobs {
+    padding: 13% 11%;
+  }
+
+  .blue-block__jobs.third {
+    padding-bottom: 24%;
   }
 }
 
@@ -52,11 +90,22 @@
   .hero_body.text-on-right.jobs {
     margin: 0 15% 0 5%;
   }
+  .blue-block__jobs {
+    padding: 12% 13%;
+  }
+
+  .blue-block__jobs.first {
+    padding-top: 7%;
+    margin-bottom: 7%;
+  }
 }
 
 @media(min-width: 850px) {
   .hero__img-container.hero-img-left.jobs {
     margin-bottom: 20%;
+  }
+  .blue-block__jobs {
+    padding: 11% 15.5%;
   }
 }
 
@@ -68,6 +117,9 @@
 
   .hero_body.text-on-right.jobs {
     margin: 0 7% 0 -4%;
+  }
+  .blue-block__jobs {
+    padding: 10% 19.5%;
   }
 }
 
@@ -89,6 +141,14 @@
 
   .hero_body.text-on-right.jobs {
     margin: 0 15% 0 -8%;
+  }
+  .blue-block__jobs {
+    padding: 7% 22.5%;
+  }
+
+  .blue-block__jobs.first {
+    padding-top: 7%;
+    margin-bottom: 13%;
   }
 }
 
