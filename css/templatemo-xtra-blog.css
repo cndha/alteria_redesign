@@ -17,7 +17,8 @@ body {
     overflow-x: hidden;
 }
 
-p, span { color: #999; }
+p, span  { color: #999; }
+.blog ul, .blog li { color: #999; }
 hr { 
     border-top-color: #CCC; 
     margin-top: 10px;
@@ -331,6 +332,9 @@ hr.tm-hr-primary { border-top: 5px solid #427FE0; }
 video {
     width: 100%;
     height: auto;
+}
+.blog h3, .blog h4 {
+    color: #1756BE;
 }
 .tm-photo {
     display: flex;
