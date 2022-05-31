@@ -320,6 +320,10 @@ ul {
 }
 
 .tm-copyright { text-align: right; }
+.blog-thumbnail-image {
+    display: flex;
+    justify-content: center;
+}
 
 /* Single Post page */
 hr.tm-hr-primary { border-top: 5px solid #427FE0; }
