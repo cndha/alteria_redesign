@@ -90,7 +90,50 @@
   }
 }
 
-
+/* Services: Sevice offering Block */
+.service-offering-top-block {
+  margin: 0% 10% 7%;
+}
+.service-offering-top-block h2 {
+  margin-bottom: 2rem;
+}
+.service-offering-block {
+  display: flex;
+  padding: 2%;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%)
+}
+.service-offering-block:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%);
+}
+.service-offering-img {
+  width: 25%;
+}
+.service-offering-text-block {
+  width: 80%;
+  padding-left: 25px;
+}
+.service-blocks {
+  display: flex;
+}
+.offering-block {
+  width:33%;
+  margin: 0px 0.7rem 1.1rem;
+}
+.offering-block h4 {
+  margin-bottom: 1rem !important;
+}
+.service-title {
+  margin-bottom: 1.5rem;
+}
+.pricing-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem;
+}
+.contact-info {
+  display: flex;
+    flex-direction: column;
+}
 /* --- SERVICES: Block 2 --- */
 
 .testimonial-card-1 {
