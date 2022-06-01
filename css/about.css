@@ -1,0 +1,373 @@
+/* --- Block 1 --- */
+.hero__body.block1-centered {
+  padding-top: 2rem !important; 
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.hero__body.block1-centered img {
+  width: 100%;
+  margin: 10% 0;
+}
+
+.hero__body.block1-centered h6 {
+  padding-top: 2rem; 
+  /* text-decoration: underline; */
+}
+
+@media(min-width: 500px) {
+  .hero__body.block1-centered {
+    padding-top: 3rem !important; 
+    padding-bottom: 9rem;
+  }
+}
+
+@media(min-width: 750px) {
+  .hero__body.block1-centered {
+    padding-bottom: 7rem;
+  }
+
+  .hero__body.block1-centered img {
+    width: 90%;
+  }
+}
+
+@media(min-width: 850px) {
+  .hero__body.block1-centered img {
+    width: 85%;
+  }
+}
+
+@media(min-width: 992px) {
+  .hero__body.block1-centered img {
+    max-width: 80%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .hero__body.block1-centered {
+    padding-bottom: 20rem;
+    padding-top: 6rem !important;
+  }
+}
+
+/* --- Block 2 --- */
+.block__title.overlay-blue-border.single-line.about {
+  margin: -12% 25% -7% 8%;
+}
+
+.blue-block__about {
+  padding: 13% 8%;
+}
+
+.blue-block__about h5 {
+  /* font-size: 1.3rem; */
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.blue-block__about p {
+  padding-top: 1rem;
+}
+
+.blue-block__about.first {
+  background-color: #9DC0F6;
+  padding-top: 20%;
+}
+
+.blue-block__about.second {
+  background-color: #8BB7FA;
+}
+
+.blue-block__about.third {
+  background-color: #77ADFF;
+  padding-bottom: 22%;
+}
+
+@media(min-width: 500px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -12% 25% -5% 8%;
+  }
+
+  .blue-block__about {
+    padding: 13% 9%;
+  }
+}
+
+@media(min-width: 600px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -12% 30% -5% 10%;
+  }
+
+  .blue-block__about {
+    padding: 13% 11%;
+  }
+
+  .blue-block__about.third {
+    padding-bottom: 24%;
+  }
+}
+
+@media(min-width: 670px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -12% 35% -5% 10%;
+  }
+}
+
+@media(min-width: 750px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -12% 40% -4% 12%;
+  }
+
+  .blue-block__about {
+    padding: 12% 13%;
+  }
+
+  .blue-block__about.first {
+    padding-top: 15%;
+  }
+}
+
+@media(min-width: 850px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -15% 43% -3.5% 15%;
+  }
+
+  .blue-block__about {
+    padding: 11% 15.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -15% 45% -3.5% 19%;
+  }
+
+  .blue-block__about {
+    padding: 10% 19.5%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .block__title.overlay-blue-border.single-line.about{
+    margin: -17% 49% -2.5% 22%;
+  }
+
+  .blue-block__about {
+    padding: 7% 22.5%;
+  }
+
+  .blue-block__about.first {
+    padding-top: 9%;
+  }
+}
+
+/* --- Block 3 --- */
+.dark-block__about {
+  background-color: #2F3540;
+  padding: 15% 10% 7% 8%;
+}
+
+.team-member {
+  color: white;
+  padding: 2rem 0;
+}
+
+.team-member img {
+  width: 60%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.team-member-info {
+  padding-top: 1rem;
+}
+
+.team-member-info h5 {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.team-member-info p {
+  padding-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.plant-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.plant-image img {
+  /* width: 55%;
+  margin: -35% -20% -20% 0; */
+  width: 50%;
+  margin: -25% -11% -14% 0;
+  z-index: 0;
+}
+
+@media(min-width: 500px) {
+  .dark-block__about {
+    padding: 15% 9% 7% 9%;
+  }
+}
+
+@media(min-width: 600px) {
+  .dark-block__about {
+    padding: 15% 11% 7% 11%;
+  }
+
+  /* .team-member img {
+    width: 50%;
+  } */
+
+  .plant-image img {
+    /* width: 50%;
+    margin: -30% -20% -20% 0; */
+    margin: -25% -14% -14% 0;
+  }
+}
+
+@media(min-width: 750px) {
+  .dark-block__about {
+    padding: 10% 13% 7% 13%;
+  }
+
+  .team-member {
+    display: flex; 
+    padding: 2.5rem 0;
+  }
+
+  .team-member img {
+    width: 35%;
+    padding-bottom: 0rem;
+    margin-right: 3rem;
+  }
+
+  .plant-image img {
+    width: 45%;
+    /* margin: -25% -22% -20% 0; */
+    margin: -25% -17% -14% 0;
+  }
+}
+
+@media(min-width: 850px) {
+  .dark-block__about {
+    padding: 10% 15.5% 7% 15.5%;
+  }
+
+  .plant-image img {
+    width: 40%;
+    /* margin: -20% -25% -20% 0; */
+    margin: -20% -20% -14% 0;
+  }
+}
+
+@media(min-width: 992px){
+  .dark-block__about {
+    padding: 10% 19.5% 7% 19.5%;
+  }
+
+  .team-member img {
+    margin-right: 5rem;
+  }
+
+  .plant-image img {
+    /* margin: -20% -30% -20% 0; */
+    margin: -20% -32% -15% 0;
+  }
+}
+
+@media(min-width: 1200px) {
+  .dark-block__about {
+    padding: 10% 22.5% 7% 22.5%;
+  }
+
+  .plant-image img {
+    /* margin: -20% -35% -20% 0; */
+    margin: -20% -39% -17% 0;
+  }
+}
+
+/* --- Block 4 --- */
+.white-block__about.content{
+  padding: 20% 7%;
+  display: flex;
+}
+
+.white-block__about.content h1 {
+  margin-right: 1.5rem;
+}
+
+.work-with-us_link h1{
+  /* font-weight: 800; */
+  color: var(--primary)
+}
+
+.work-with-us_link p {
+  /* font-size: 1.2rem; */
+}
+
+@media(min-width: 500px) {
+  .white-block__about.content{
+    padding: 15% 10% 15% 10%;
+  }
+}
+
+@media(min-width: 600px) {
+  .white-block__about.content{
+    padding: 15% 11% 15% 11%;
+  }
+}
+
+@media(min-width: 750px) {
+  .white-block__about.content{
+    padding: 15% 10% 15% 13%;
+  }
+
+  /* .white-block__about.content h1 {
+    font-size: 2.7rem;
+  }
+
+  .work-with-us_link h1{
+    font-size: 3rem;
+  }
+  
+  .work-with-us_link p {
+    font-size: 1.2rem;
+  } */
+
+}
+
+@media(min-width: 850px) {
+  .white-block__about.content{
+    padding: 13% 15.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .white-block__about.content{
+    padding: 10% 15%;
+  }
+/* 
+  .white-block__about.content h1 {
+    font-size: 3rem;
+  }
+
+  .work-with-us_link h1{
+    font-size: 3.25rem;
+  }
+  
+  .work-with-us_link p {
+    font-size: 1.4rem;
+  } */
+}
+
+@media(min-width: 1200px) {
+  .white-block__about.content{
+    padding: 10% 22.5%;
+  }
+}
+

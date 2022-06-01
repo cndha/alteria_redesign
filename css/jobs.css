@@ -1,0 +1,242 @@
+/* --- Block 1 --- */
+.hero__body {
+  padding-top: 0 !important;
+  padding-bottom: 7rem !important;
+}
+
+.hero__img-container.hero-img-left.jobs {
+  width: 100%;
+  margin-left: -30%;
+}
+
+.hero_body.text-on-right h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.hero_body.text-on-right.jobs {
+  margin: 0 3% 0 6%;
+}
+
+.blue-block__jobs {
+  padding: 13% 8%;
+}
+
+.blue-block__jobs h5 {
+  /* font-size: 1.3rem; */
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.blue-block__jobs p {
+  padding-top: 1rem;
+}
+
+.blue-block__jobs.first {
+  background-color: #9DC0F6;
+  padding-top: 10%;
+}
+
+.blue-block__jobs.second {
+  background-color: #8BB7FA;
+}
+
+.blue-block__jobs.third {
+  background-color: #77ADFF;
+  padding-bottom: 22%;
+}
+
+@media(min-width: 500px) {
+  .hero__body {
+    padding-bottom: 8rem !important;
+  }
+
+  .hero_body.text-on-right.jobs {
+    margin: 0 10%;
+  }
+  .blue-block__jobs {
+    padding: 13% 9%;
+  }
+
+}
+
+@media(min-width: 600px) {
+  .hero__body {
+    padding-bottom: 9rem !important;
+  }
+
+  .hero_body.text-on-right.jobs h5 {
+    margin-right: 8%;
+  }
+  .blue-block__jobs {
+    padding: 13% 11%;
+  }
+
+  .blue-block__jobs.third {
+    padding-bottom: 24%;
+  }
+}
+
+@media(min-width: 750px) {
+  .hero__body {
+    padding-top: 2rem !important;
+  }
+
+  .hero__img-container.hero-img-left.jobs {
+    width: 150%;
+    margin-left: -60%;
+  }
+
+  .hero_body.text-on-right.jobs {
+    margin: 0 15% 0 5%;
+  }
+  .blue-block__jobs {
+    padding: 12% 13%;
+  }
+
+  .blue-block__jobs.first {
+    padding-top: 7%;
+    margin-bottom: 7%;
+  }
+}
+
+@media(min-width: 850px) {
+  .hero__img-container.hero-img-left.jobs {
+    margin-bottom: 20%;
+  }
+  .blue-block__jobs {
+    padding: 11% 15.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .hero__img-container.hero-img-left.jobs {
+    width: 120%;
+    margin-left: -40%;
+  }
+
+  .hero_body.text-on-right.jobs {
+    margin: 0 7% 0 -4%;
+  }
+  .blue-block__jobs {
+    padding: 10% 19.5%;
+  }
+}
+
+@media(min-width: 1118px) {
+  .hero_body.text-on-right.jobs h5 {
+    margin-right: 10%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .hero__body {
+    padding-bottom: 11rem !important;
+  }
+
+  .hero__img-container.hero-img-left.jobs {
+    width: 110%;
+    /* margin-left: -50%; */
+  }
+
+  .hero_body.text-on-right.jobs {
+    margin: 0 15% 0 -8%;
+  }
+  .blue-block__jobs {
+    padding: 7% 22.5%;
+  }
+
+  .blue-block__jobs.first {
+    padding-top: 7%;
+    margin-bottom: 13%;
+  }
+}
+
+@media(min-width: 1650px) {
+  .hero_body.text-on-right.jobs {
+    margin: 0 22% 0 -8%;
+  }
+}
+
+/* --- Block 3 --- */
+.title-light {
+  font-weight: 600;
+}
+
+.title-bold-blue {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.white-block__jobs {
+  margin: 18% 8% 20% 8%;
+}
+
+.white-block__jobs h3 {
+  padding-bottom: 1rem;
+}
+
+.white-block__jobs p{
+  padding: 1rem 0;
+}
+
+#application-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #9F9F9F;
+  padding-left: 1.3rem;
+  padding-top: 0.5rem;
+}
+
+input[type=file] {
+  padding-left: 0.3rem;
+  padding-bottom: 1rem;
+}
+
+#CV-file {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+@media(min-width: 500px) {
+  .white-block__jobs {
+    margin: 17% 9% 19% 9%;
+  }
+}
+
+@media(min-width: 600px) {
+  .white-block__jobs {
+    margin: 15% 11% 17% 11%;
+  }
+}
+
+@media(min-width: 750px) {
+  .white-block__jobs {
+    margin: 13% 13% 15% 13%;
+  }
+}
+
+@media(min-width: 850px) {
+  .white-block__jobs {
+    margin: 12% 15.5% 14% 15.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .white-block__jobs {
+    margin: 11% 19.5%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .white-block__jobs {
+    margin: 10% 22.5%;
+  }
+}
