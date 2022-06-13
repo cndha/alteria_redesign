@@ -333,8 +333,14 @@ video {
     width: 100%;
     height: auto;
 }
-.blog h3, .blog h4 {
+.blog h2, .blog h3, .blog h4 {
     color: #1756BE;
+}
+.blog h2 {
+    font-size: 26px;
+}
+.blog h3 {
+    font-size: 21px;
 }
 .tm-photo {
     display: flex;
